@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:copper_leggings"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:copper_leggings"
+  }
+}

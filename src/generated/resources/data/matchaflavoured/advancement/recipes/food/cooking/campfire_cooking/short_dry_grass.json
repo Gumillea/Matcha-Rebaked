@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:short_dry_grass"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fern": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fern"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_short_grass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:short_grass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/short_dry_grass"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_short_grass",
+      "has_fern"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/short_dry_grass"
+    ]
+  }
+}

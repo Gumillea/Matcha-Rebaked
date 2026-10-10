@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:melon_sorbet"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:melon_sorbet"
+  }
+}

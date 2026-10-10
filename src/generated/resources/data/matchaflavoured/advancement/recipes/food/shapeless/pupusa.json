@@ -1,0 +1,100 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pupusa"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cooked_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_chicken"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cooked_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_porkchop"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/cheese"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:oil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/pupusa"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_oil",
+      "has_cooked_porkchop",
+      "has_cooked_chicken",
+      "has_dough",
+      "has_foods/cheese"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/pupusa"
+    ]
+  }
+}

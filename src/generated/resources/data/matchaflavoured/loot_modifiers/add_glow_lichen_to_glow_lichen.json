@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:glow_lichen"
+    }
+  ],
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/glow_lichen"
+    }
+  ],
+  "table": "matchaflavoured:inject/add_glow_lichen_to_glow_lichen"
+}

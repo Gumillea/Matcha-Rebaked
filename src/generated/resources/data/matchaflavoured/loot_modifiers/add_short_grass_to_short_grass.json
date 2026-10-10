@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:short_grass"
+    }
+  ],
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/short_grass"
+    }
+  ],
+  "table": "matchaflavoured:inject/add_short_grass_to_short_grass"
+}

@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:chocolate"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cocoa_beans": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cocoa_beans"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/chocolate"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cocoa_beans"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/chocolate"
+    ]
+  }
+}

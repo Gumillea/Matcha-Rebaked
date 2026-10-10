@@ -1,0 +1,92 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/bread"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:eggs"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:drinks/milk"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:latke"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baked_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:baked_potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_drinks/milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:drinks/milk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_eggs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:eggs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/latke"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baked_potato",
+      "has_foods/bread",
+      "has_eggs",
+      "has_drinks/milk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/latke"
+    ]
+  }
+}

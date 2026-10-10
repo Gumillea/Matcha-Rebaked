@@ -1,0 +1,6 @@
+{
+  "parent": "inland_port:item/hat",
+  "textures": {
+    "hat": "matchaflavoured:item/armor/amber_earrings"
+  }
+}

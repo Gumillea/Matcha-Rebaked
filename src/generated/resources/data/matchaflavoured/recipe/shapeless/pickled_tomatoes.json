@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/tomato"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pickled_tomatoes"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "c:crops/tomato"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:pickled_tomatoes"
+  }
+}

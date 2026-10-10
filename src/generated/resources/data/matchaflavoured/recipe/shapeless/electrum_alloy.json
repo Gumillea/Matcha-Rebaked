@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/gold"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_fragment"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:electrum_alloy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/gold"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "item": "matchaflavoured:divine_fragment"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:electrum_alloy"
+  }
+}

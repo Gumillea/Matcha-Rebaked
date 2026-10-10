@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:herring",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:wolffish",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:skate",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

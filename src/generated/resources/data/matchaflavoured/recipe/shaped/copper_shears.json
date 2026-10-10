@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:copper_shears"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "tag": "c:ingots/copper"
+    }
+  },
+  "pattern": [
+    " c ",
+    "c  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:copper_shears"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "waterlogged=false": {
+      "model": "matchaflavoured:block/phosphor_torch"
+    },
+    "waterlogged=true": {
+      "model": "matchaflavoured:block/phosphor_torch"
+    }
+  }
+}

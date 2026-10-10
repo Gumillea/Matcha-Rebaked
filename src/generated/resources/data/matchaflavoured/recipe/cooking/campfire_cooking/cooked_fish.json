@@ -1,0 +1,147 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:alaska_blackfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:anchovy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bluegill"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bujurqui"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:crappie"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flying_fish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:guppy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:gurnard"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:herring"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:humpback_whitefish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:lamprey"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mediterranean_killifish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:charred_fish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:piranha"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:rainbow_wrasse"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shad"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:spoonhead_sculpin"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:striped_perch"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:cooked_fish"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": [
+    {
+      "item": "minecraft:tropical_fish"
+    },
+    {
+      "item": "matchaflavoured:alaska_blackfish"
+    },
+    {
+      "item": "matchaflavoured:anchovy"
+    },
+    {
+      "item": "matchaflavoured:bluegill"
+    },
+    {
+      "item": "matchaflavoured:bujurqui"
+    },
+    {
+      "item": "matchaflavoured:crappie"
+    },
+    {
+      "item": "matchaflavoured:flying_fish"
+    },
+    {
+      "item": "matchaflavoured:guppy"
+    },
+    {
+      "item": "matchaflavoured:gurnard"
+    },
+    {
+      "item": "matchaflavoured:herring"
+    },
+    {
+      "item": "matchaflavoured:humpback_whitefish"
+    },
+    {
+      "item": "matchaflavoured:lamprey"
+    },
+    {
+      "item": "matchaflavoured:mediterranean_killifish"
+    },
+    {
+      "item": "matchaflavoured:charred_fish"
+    },
+    {
+      "item": "matchaflavoured:piranha"
+    },
+    {
+      "item": "matchaflavoured:rainbow_wrasse"
+    },
+    {
+      "item": "matchaflavoured:shad"
+    },
+    {
+      "item": "matchaflavoured:spoonhead_sculpin"
+    },
+    {
+      "item": "matchaflavoured:striped_perch"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:cooked_fish"
+  }
+}

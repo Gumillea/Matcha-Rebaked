@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cooked_fish"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:flour"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:fish_and_chips"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "tag": "c:foods/cooked_fish"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:fish_and_chips"
+  }
+}

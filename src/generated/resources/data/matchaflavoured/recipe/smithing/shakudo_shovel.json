@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shakudo_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shakudo_shovel"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:shakudo_alloy"
+  },
+  "base": {
+    "item": "minecraft:stone_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:shakudo_shovel"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

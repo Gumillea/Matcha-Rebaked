@@ -1,0 +1,56 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": [
+      {
+        "item": "minecraft:netherite_axe"
+      },
+      {
+        "item": "minecraft:netherite_boots"
+      },
+      {
+        "item": "minecraft:netherite_helmet"
+      },
+      {
+        "item": "minecraft:netherite_chestplate"
+      },
+      {
+        "item": "minecraft:netherite_hoe"
+      },
+      {
+        "item": "minecraft:netherite_leggings"
+      },
+      {
+        "item": "minecraft:netherite_pickaxe"
+      },
+      {
+        "item": "minecraft:netherite_shovel"
+      },
+      {
+        "item": "minecraft:netherite_sword"
+      }
+    ],
+    "n": {
+      "item": "minecraft:netherrack"
+    },
+    "s": {
+      "item": "matchaflavoured:blueprint"
+    }
+  },
+  "pattern": [
+    "nsn",
+    "ses",
+    "nsn"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/quartz"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/gold"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "g": {
+      "tag": "c:ingots/gold"
+    },
+    "q": {
+      "tag": "c:gems/quartz"
+    }
+  },
+  "pattern": [
+    " g ",
+    "gqg",
+    " g "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:clock"
+  }
+}

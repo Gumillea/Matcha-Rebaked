@@ -1,0 +1,29 @@
+{
+	"music.overworld.forest": {
+		"sounds": [
+			{
+				"name": "music/game/abbey",
+				"stream": true,
+				"volume": 0.4
+			}
+		]
+	},
+    "music_disc.labyrinthine": {
+		"sounds": [
+			{
+				"name": "music/game/swamp/labyrinthine",
+				"volume": 1,
+				"stream": true
+			}
+		]
+	},
+	"music_disc.dry_hands": {
+		"sounds": [
+			{
+				"name": "music/game/dry_hands",
+				"volume": 1,
+				"stream": true
+			}
+		]
+	}
+}

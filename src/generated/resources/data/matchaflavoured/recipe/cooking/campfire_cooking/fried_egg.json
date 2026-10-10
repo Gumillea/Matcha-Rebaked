@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:fried_egg"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:fried_egg"
+  }
+}

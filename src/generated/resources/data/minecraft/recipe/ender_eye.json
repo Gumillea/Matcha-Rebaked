@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:stabilized_estus"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_fragment"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:ender_eye"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:stabilized_estus"
+    },
+    {
+      "item": "matchaflavoured:divine_fragment"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "id": "minecraft:ender_eye"
+  }
+}

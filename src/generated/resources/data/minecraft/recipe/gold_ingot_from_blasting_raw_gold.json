@@ -1,0 +1,51 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": [
+    {
+      "item": "minecraft:raw_gold"
+    },
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "minecraft:golden_hoe"
+    },
+    {
+      "item": "minecraft:golden_horse_armor"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:golden_pickaxe"
+    },
+    {
+      "item": "minecraft:golden_shovel"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:gold_ingot"
+  }
+}

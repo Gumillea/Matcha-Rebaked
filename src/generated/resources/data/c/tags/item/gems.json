@@ -1,0 +1,8 @@
+{
+  "values": [
+    "matchaflavoured:ruby",
+    "matchaflavoured:opal",
+    "matchaflavoured:amber",
+    "matchaflavoured:topaz"
+  ]
+}

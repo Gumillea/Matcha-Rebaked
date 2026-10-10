@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:short_dry_grass"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "matchaflavoured:short_dry_grass"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "c ",
+    "s "
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:torch"
+  }
+}

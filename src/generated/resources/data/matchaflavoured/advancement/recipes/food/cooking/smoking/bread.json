@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:dough"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/smoking/bread"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/smoking/bread"
+    ]
+  }
+}

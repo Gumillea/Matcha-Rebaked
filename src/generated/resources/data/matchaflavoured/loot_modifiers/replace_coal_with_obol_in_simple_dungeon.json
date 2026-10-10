@@ -1,0 +1,11 @@
+{
+  "type": "inland_port:replace_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/simple_dungeon"
+    }
+  ],
+  "item": "minecraft:coal",
+  "replacement": "matchaflavoured:obol"
+}

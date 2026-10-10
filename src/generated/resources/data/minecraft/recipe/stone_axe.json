@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:stone_axe"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "cc ",
+    "cs ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:stone_axe"
+  }
+}

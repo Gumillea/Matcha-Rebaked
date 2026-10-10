@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:dough"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "matchaflavoured:dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:bread"
+  }
+}

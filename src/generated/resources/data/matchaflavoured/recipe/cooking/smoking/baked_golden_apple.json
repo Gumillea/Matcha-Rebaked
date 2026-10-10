@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:baked_golden_apple"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:golden_apple"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:baked_golden_apple"
+  }
+}

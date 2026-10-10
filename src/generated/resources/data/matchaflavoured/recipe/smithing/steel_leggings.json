@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steel_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steel_leggings"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:steel_alloy"
+  },
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:steel_leggings"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

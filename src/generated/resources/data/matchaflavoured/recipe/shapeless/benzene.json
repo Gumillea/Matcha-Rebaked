@@ -1,0 +1,35 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:benzene"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "matchaflavoured:sulfur_chunk"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:benzene"
+  }
+}

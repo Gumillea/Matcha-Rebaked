@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/iron"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:lodestone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "i": {
+      "tag": "c:ingots/iron"
+    },
+    "s": {
+      "item": "minecraft:chiseled_stone_bricks"
+    }
+  },
+  "pattern": [
+    "sss",
+    "sis",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:lodestone"
+  }
+}

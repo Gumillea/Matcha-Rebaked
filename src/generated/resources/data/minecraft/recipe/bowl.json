@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:bowl"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:brick"
+    }
+  },
+  "pattern": [
+    "b b",
+    "bbb"
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:bowl"
+  }
+}

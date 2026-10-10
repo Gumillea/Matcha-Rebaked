@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_red_mushroom"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pickled_red_mushrooms"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "matchaflavoured:braised_red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:pickled_red_mushrooms"
+  }
+}

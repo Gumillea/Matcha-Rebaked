@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:cyan_rose"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:cyan_rose"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:cyan_dye"
+  }
+}

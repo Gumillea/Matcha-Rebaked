@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "matchaflavoured:item/secret_meal",
+      "predicate": {
+        "matchaflavoured:secret": 1.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "matchaflavoured:item/warped_fungus_stroganoff"
+  }
+}

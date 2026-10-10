@@ -1,0 +1,61 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/tomato"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cooked_meat"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:meat_pizza"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "tag": "c:foods/cheese"
+    },
+    "d": {
+      "tag": "c:dough"
+    },
+    "m": {
+      "tag": "c:foods/cooked_meat"
+    },
+    "t": {
+      "tag": "c:crops/tomato"
+    }
+  },
+  "pattern": [
+    "cmc",
+    "ttt",
+    "ddd"
+  ],
+  "result": {
+    "count": 4,
+    "id": "matchaflavoured:meat_pizza"
+  }
+}

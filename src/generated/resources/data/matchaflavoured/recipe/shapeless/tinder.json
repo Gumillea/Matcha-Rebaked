@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tinder"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    [
+      {
+        "item": "minecraft:short_grass"
+      },
+      {
+        "item": "minecraft:fern"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:tinder"
+  }
+}

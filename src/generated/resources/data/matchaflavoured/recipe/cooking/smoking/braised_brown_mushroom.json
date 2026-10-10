@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_brown_mushroom"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:brown_mushroom"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:braised_brown_mushroom"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/pumpkin"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:baked_pumpkin"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_crops/pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:crops/pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/baked_pumpkin"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_crops/pumpkin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/baked_pumpkin"
+    ]
+  }
+}

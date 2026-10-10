@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mead"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bubbling_mead"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:mead"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:bubbling_mead"
+  }
+}

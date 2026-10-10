@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:copper_boots"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_boots"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:hepatizon_alloy"
+  },
+  "base": {
+    "item": "matchaflavoured:copper_boots"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:hepatizon_boots"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

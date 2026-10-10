@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/glow_berry"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:glow_berry_mash"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "c:foods/glow_berry"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:glow_berry_mash"
+  }
+}

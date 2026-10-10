@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_fragment"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:crystal_heart"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "f": {
+      "item": "matchaflavoured:divine_fragment"
+    }
+  },
+  "pattern": [
+    "###",
+    "#f#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:crystal_heart"
+  }
+}

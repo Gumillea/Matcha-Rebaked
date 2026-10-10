@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:sulfur_chunk"
+    }
+  },
+  "pattern": [
+    "## ",
+    "## "
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:sulfur"
+  }
+}

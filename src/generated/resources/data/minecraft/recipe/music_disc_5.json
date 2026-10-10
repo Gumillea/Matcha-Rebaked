@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:music_disc_5"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "e": {
+      "item": "minecraft:echo_shard"
+    },
+    "f": {
+      "item": "minecraft:disc_fragment_5"
+    }
+  },
+  "pattern": [
+    "fff",
+    "fef",
+    "fff"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_5"
+  }
+}

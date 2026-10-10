@@ -1,0 +1,100 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_red_mushroom"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:drinks/milk"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:red_mushroom_stroganoff"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_braised_red_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:braised_red_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_cooked_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cooked_beef"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_drinks/milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:drinks/milk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/red_mushroom_stroganoff"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_braised_red_mushroom",
+      "has_cooked_beef",
+      "has_dough",
+      "has_drinks/milk"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/red_mushroom_stroganoff"
+    ]
+  }
+}

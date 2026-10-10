@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_fragment"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_favor"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:divine_fragment"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:divine_favor"
+  }
+}

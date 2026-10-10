@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:copper_chestplate"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_chestplate"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:hepatizon_alloy"
+  },
+  "base": {
+    "item": "matchaflavoured:copper_chestplate"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:hepatizon_chestplate"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

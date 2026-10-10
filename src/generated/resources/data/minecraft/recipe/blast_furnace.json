@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:blast_furnace"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:campfire"
+    },
+    "p": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "s": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "pattern": [
+    "p p",
+    "p p",
+    "scs"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:blast_furnace"
+  }
+}

@@ -1,0 +1,13 @@
+// 1.21.1	2026-09-29T19:19:58.9303409	Tags for minecraft:worldgen/biome mod id matchaflavoured
+7b045ad87c39f7247505663756224a6cbf6e5e2f data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater.json
+6cc605c58b58b258dfbb0c2d2428142eb1f52d67 data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater/arid.json
+5dfd898bdb0a67a270121e691365140e0e54dc78 data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater/cold.json
+9974e4dee54a1792bce2d3a8cd3fd96e1ba47ae5 data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater/cool.json
+3c7ba762fc3b93ee57b529c5950c4ba73f0e906f data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater/temperate.json
+7a6207cbf7b61e7823ff557ca7e8e46deca64eab data/matchaflavoured/tags/worldgen/biome/fishing/is_freshwater/tropical.json
+7ab168754d6e78ecef39a6d1baa046622304b683 data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/cold.json
+73f5e897538b380822605ca137e9b71fe09e3aa0 data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/cool.json
+6410267e4c6c6e433ffa5df5cb5f1fefed919409 data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/hot.json
+6525dda69924a36f16797ed873bffc083e1f4de5 data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/is_brackish_water.json
+416d6d7bdc0762a5ba8d3d0ab55ff2f80730967f data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/temperate.json
+e2e1677b4fcae4afcf03328c1a9c235328d0c516 data/matchaflavoured/tags/worldgen/biome/fishing/is_saltwater/warm.json

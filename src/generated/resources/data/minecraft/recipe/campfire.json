@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:campfire"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": {
+      "tag": "minecraft:logs"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ss ",
+    "ll "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:campfire"
+  }
+}

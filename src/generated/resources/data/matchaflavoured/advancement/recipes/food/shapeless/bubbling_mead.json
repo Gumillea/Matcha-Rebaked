@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/fruit"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bubbling_mead"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brown_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/fruit": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/fruit"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glass_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/bubbling_mead"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glass_bottle",
+      "has_brown_mushroom",
+      "has_sugar",
+      "has_foods/fruit"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/bubbling_mead"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/apple"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:baked_apple"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_foods/apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/baked_apple"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_foods/apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/baked_apple"
+    ]
+  }
+}

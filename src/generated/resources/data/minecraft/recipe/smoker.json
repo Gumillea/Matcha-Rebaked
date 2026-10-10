@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/iron"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:smoker"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "minecraft:bricks"
+    },
+    "c": {
+      "item": "minecraft:campfire"
+    },
+    "i": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "pattern": [
+    "iii",
+    "b b",
+    "bcb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:smoker"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "type": "paletted_permutations",
+      "textures": [
+        "trims/items/leggings_trim",
+        "trims/items/chestplate_trim",
+        "trims/items/helmet_trim",
+        "trims/items/boots_trim"
+      ],
+      "palette_key": "trims/color_palettes/trim_palette",
+      "permutations": {
+        "electrum": "matcha:trims/color_palettes/electrum",
+        "shakudo": "matcha:trims/color_palettes/shakudo",
+        "hepatizon": "matcha:trims/color_palettes/hepatizon",
+        "electrum_darker": "matcha:trims/color_palettes/electrum",
+        "shakudo_darker": "matcha:trims/color_palettes/shakudo",
+        "hepatizon_darker": "matcha:trims/color_palettes/hepatizon"
+      }
+    }
+  ]
+}

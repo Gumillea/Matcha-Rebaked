@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:music_discs"
+      }
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_music_discs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:music_discs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/disc_fragment_5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_music_discs"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/disc_fragment_5"
+    ]
+  }
+}

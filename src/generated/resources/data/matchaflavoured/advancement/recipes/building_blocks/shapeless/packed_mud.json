@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:straw"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mud": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mud"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_straw": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:straw"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/packed_mud"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_straw",
+      "has_mud"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/packed_mud"
+    ]
+  }
+}

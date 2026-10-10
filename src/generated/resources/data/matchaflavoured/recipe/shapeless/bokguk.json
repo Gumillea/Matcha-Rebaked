@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/carrot"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cooked_fish"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_brown_mushroom"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bokguk"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "tag": "c:foods/cooked_fish"
+    },
+    {
+      "item": "matchaflavoured:braised_brown_mushroom"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:bokguk"
+  }
+}

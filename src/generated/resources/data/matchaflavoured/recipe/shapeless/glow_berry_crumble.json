@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:glow_berry_mash"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:glow_berry_crumble"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:glow_berry_mash"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:foods/cheese"
+    },
+    {
+      "tag": "c:dough"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:glow_berry_crumble"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:chests/wooden"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:leathers"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sack"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "e": {
+      "tag": "c:chests/wooden"
+    },
+    "s": {
+      "tag": "c:leathers"
+    }
+  },
+  "pattern": [
+    " s ",
+    "ses",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:sack"
+  }
+}

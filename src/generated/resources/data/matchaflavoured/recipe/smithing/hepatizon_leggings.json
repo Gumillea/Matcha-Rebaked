@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:copper_leggings"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_leggings"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:hepatizon_alloy"
+  },
+  "base": {
+    "item": "matchaflavoured:copper_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:hepatizon_leggings"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

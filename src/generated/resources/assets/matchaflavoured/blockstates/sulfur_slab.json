@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "matchaflavoured:block/sulfur_slab"
+    },
+    "type=double": {
+      "model": "matchaflavoured:block/sulfur"
+    },
+    "type=top": {
+      "model": "matchaflavoured:block/sulfur_slab_top"
+    }
+  }
+}

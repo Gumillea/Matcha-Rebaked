@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:curry_stock"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:curry"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 900,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "matchaflavoured:curry_stock"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:curry"
+  }
+}

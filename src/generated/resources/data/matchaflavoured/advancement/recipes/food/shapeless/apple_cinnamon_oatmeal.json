@@ -1,0 +1,111 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:drinks/milk"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/apple"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:apple_cinnamon_oatmeal"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_drinks/milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:drinks/milk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_estus_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:estus_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_honey_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/apple_cinnamon_oatmeal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wheat_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_honey_bottle",
+      "has_estus_dust",
+      "has_wheat_seeds",
+      "has_drinks/milk",
+      "has_foods/apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/apple_cinnamon_oatmeal"
+    ]
+  }
+}

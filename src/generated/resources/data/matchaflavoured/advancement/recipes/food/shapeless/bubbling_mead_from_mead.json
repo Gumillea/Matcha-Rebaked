@@ -1,0 +1,53 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mead"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bubbling_mead"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mead": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:mead"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/bubbling_mead_from_mead"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_mead",
+      "has_sugar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/bubbling_mead_from_mead"
+    ]
+  }
+}

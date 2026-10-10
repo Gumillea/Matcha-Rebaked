@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:polished_sulfur"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:polished_sulfur_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:polished_sulfur"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "matchaflavoured:polished_sulfur_slab"
+  }
+}

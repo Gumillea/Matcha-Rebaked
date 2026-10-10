@@ -1,0 +1,52 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tomatoes"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cooked_fish"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:eggs"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:kontomire_stew"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "matchaflavoured:tomatoes"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:fern"
+    },
+    {
+      "tag": "c:foods/cooked_fish"
+    },
+    {
+      "tag": "c:eggs"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:kontomire_stew"
+  }
+}

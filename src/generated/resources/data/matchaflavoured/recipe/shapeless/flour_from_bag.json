@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flour_bag"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flour"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:flour_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "matchaflavoured:flour"
+  }
+}

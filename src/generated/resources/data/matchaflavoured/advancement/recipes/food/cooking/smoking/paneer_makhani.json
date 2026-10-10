@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:paneer_makhani_stock"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:paneer_makhani"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_paneer_makhani_stock": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:paneer_makhani_stock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/smoking/paneer_makhani"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_paneer_makhani_stock"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/smoking/paneer_makhani"
+    ]
+  }
+}

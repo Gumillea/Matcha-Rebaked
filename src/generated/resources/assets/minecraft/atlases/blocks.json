@@ -1,0 +1,8 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "matchaflavoured:entity/warding_shield"
+    }
+  ]
+}

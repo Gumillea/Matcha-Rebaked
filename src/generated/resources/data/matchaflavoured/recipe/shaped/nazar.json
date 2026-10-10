@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/lapis"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:nazar"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "e": {
+      "item": "matchaflavoured:estus_dust"
+    },
+    "l": {
+      "tag": "c:gems/lapis"
+    },
+    "w": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "ell",
+    "lwl",
+    "lle"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:nazar"
+  }
+}

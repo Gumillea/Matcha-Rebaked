@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/sweet_berry"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sweet_berry_mash"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_foods/sweet_berry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/sweet_berry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/smoking/sweet_berry_mash"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_foods/sweet_berry"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/smoking/sweet_berry_mash"
+    ]
+  }
+}

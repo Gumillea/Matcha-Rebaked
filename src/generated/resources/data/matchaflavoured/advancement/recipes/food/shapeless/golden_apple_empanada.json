@@ -1,0 +1,86 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:baked_golden_apple"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:golden_apple_empanada"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_baked_golden_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:baked_golden_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_estus_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:estus_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/golden_apple_empanada"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_baked_golden_apple",
+      "has_sugar",
+      "has_estus_dust",
+      "has_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/golden_apple_empanada"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/carrot"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:eggs"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:flour"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:gimmari"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:gimmari"
+  }
+}

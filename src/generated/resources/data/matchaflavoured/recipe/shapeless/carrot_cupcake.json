@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steamed_carrots"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:carrot_cupcake"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:steamed_carrots"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "tag": "c:dough"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:carrot_cupcake"
+  }
+}

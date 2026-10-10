@@ -1,0 +1,74 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/tomato"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bruschetta"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crops/tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:crops/tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/cheese"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/bruschetta"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bread",
+      "has_crops/tomato",
+      "has_foods/cheese"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/bruschetta"
+    ]
+  }
+}

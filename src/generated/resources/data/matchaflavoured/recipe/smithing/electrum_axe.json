@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:electrum_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:electrum_axe"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:electrum_alloy"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:electrum_axe"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

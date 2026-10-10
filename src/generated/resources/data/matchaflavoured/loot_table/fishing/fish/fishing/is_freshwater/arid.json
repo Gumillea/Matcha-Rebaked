@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:mediterranean_killifish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:freshwater_pufferfish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:lamprey",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:tunisian_barb",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:european_eel",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tomatoes"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:grilled_tomatoes"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "matchaflavoured:tomatoes"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:grilled_tomatoes"
+  }
+}

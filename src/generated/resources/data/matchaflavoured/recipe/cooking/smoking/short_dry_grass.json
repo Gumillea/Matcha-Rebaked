@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:short_dry_grass"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": [
+    {
+      "item": "minecraft:short_grass"
+    },
+    {
+      "item": "minecraft:fern"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:short_dry_grass"
+  }
+}

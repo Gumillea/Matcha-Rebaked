@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:grilled_melon"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:melon_slice"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:grilled_melon"
+  }
+}

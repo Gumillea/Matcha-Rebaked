@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:charred_potato"
+    }
+  ],
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:charred_potato"
+  }
+}

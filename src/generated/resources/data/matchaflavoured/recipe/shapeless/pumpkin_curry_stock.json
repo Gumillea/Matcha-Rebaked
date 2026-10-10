@@ -1,0 +1,69 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:baked_pumpkin"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:drinks/milk"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/carrot"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pumpkin_curry_stock"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "matchaflavoured:baked_pumpkin"
+    },
+    {
+      "item": "minecraft:sunflower"
+    },
+    {
+      "tag": "c:drinks/milk"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:pumpkin_curry_stock"
+  }
+}

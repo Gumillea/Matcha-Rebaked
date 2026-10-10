@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:striped_perch",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:crappie",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:walleye",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:gar",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:muskellunge",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

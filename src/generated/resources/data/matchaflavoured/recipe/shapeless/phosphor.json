@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:phosphor"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "matchaflavoured:phosphor"
+  }
+}

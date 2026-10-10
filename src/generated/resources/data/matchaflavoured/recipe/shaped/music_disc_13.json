@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:disc_fragment_5"
+    },
+    "f": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#f#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:music_disc_13"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:gems/diamond"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:diamond_earrings"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "tag": "c:gems/diamond"
+  },
+  "base": {
+    "tag": "c:ingots/silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:diamond_earrings"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

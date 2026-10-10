@@ -1,0 +1,308 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:alaska_blackfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:anchovy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bluegill"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bujurqui"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:crappie"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flying_fish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:guppy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:gurnard"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:herring"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:humpback_whitefish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:lamprey"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mediterranean_killifish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:charred_fish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:piranha"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:rainbow_wrasse"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shad"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:spoonhead_sculpin"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:striped_perch"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:cooked_fish"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_alaska_blackfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:alaska_blackfish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_anchovy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:anchovy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bluegill": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:bluegill"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bujurqui": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:bujurqui"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_charred_fish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:charred_fish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crappie": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:crappie"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flying_fish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:flying_fish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_guppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:guppy"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gurnard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:gurnard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_herring": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:herring"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_humpback_whitefish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:humpback_whitefish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_lamprey": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:lamprey"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mediterranean_killifish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:mediterranean_killifish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_piranha": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:piranha"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_rainbow_wrasse": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:rainbow_wrasse"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_shad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:shad"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_spoonhead_sculpin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:spoonhead_sculpin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_striped_perch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:striped_perch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/cooked_fish"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tropical_fish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tropical_fish",
+      "has_alaska_blackfish",
+      "has_anchovy",
+      "has_bluegill",
+      "has_bujurqui",
+      "has_crappie",
+      "has_flying_fish",
+      "has_guppy",
+      "has_gurnard",
+      "has_herring",
+      "has_humpback_whitefish",
+      "has_lamprey",
+      "has_mediterranean_killifish",
+      "has_charred_fish",
+      "has_piranha",
+      "has_rainbow_wrasse",
+      "has_shad",
+      "has_spoonhead_sculpin",
+      "has_striped_perch"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/cooked_fish"
+    ]
+  }
+}

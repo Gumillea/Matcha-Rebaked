@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "matchaflavoured:block/sulfur_bricks",
+    "side": "matchaflavoured:block/sulfur_bricks",
+    "top": "matchaflavoured:block/sulfur_bricks"
+  }
+}

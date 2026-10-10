@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:warding_sword"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:silver_sword"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:warding_sword"
+  },
+  "base": {
+    "tag": "c:ingots/silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:silver_sword"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

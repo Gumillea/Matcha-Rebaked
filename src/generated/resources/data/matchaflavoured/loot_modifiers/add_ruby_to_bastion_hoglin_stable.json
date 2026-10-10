@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:ruby"
+    }
+  ],
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/bastion_hoglin_stable"
+    }
+  ],
+  "table": "matchaflavoured:inject/add_ruby_to_bastion_hoglin_stable"
+}

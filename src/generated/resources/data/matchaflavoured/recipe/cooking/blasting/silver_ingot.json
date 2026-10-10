@@ -1,0 +1,32 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:raw_silver"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:silver_sword"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:silver_ingot"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": [
+    {
+      "item": "matchaflavoured:raw_silver"
+    },
+    {
+      "item": "matchaflavoured:silver_sword"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:silver_ingot"
+  }
+}

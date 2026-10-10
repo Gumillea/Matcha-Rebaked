@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flour_bag"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flour"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_flour_bag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:flour_bag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/flour_from_bag"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_flour_bag"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/flour_from_bag"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:wooden_cross"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "e": {
+      "item": "matchaflavoured:estus_dust"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " s ",
+    "ses",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:wooden_cross"
+  }
+}

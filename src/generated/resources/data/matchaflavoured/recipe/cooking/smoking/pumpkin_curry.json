@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pumpkin_curry_stock"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pumpkin_curry"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "matchaflavoured:pumpkin_curry_stock"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:pumpkin_curry"
+  }
+}

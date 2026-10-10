@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:alaska_blackfish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:humpback_whitefish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:spoonhead_sculpin",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:northern_pike",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:siberian_sturgeon",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

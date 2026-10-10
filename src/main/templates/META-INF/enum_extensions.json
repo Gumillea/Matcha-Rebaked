@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "MATCHAFLAVOURED_AMBER",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "com/gumillea/matchaflavoured/core/reg/MFRarities",
+        "field": "AMBER"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "MATCHAFLAVOURED_OPAL",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "com/gumillea/matchaflavoured/core/reg/MFRarities",
+        "field": "OPAL"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "MATCHAFLAVOURED_RUBY",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "com/gumillea/matchaflavoured/core/reg/MFRarities",
+        "field": "RUBY"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/Rarity",
+      "name": "MATCHAFLAVOURED_TOPAZ",
+      "constructor": "(ILjava/lang/String;Ljava/util/function/UnaryOperator;)V",
+      "parameters": {
+        "class": "com/gumillea/matchaflavoured/core/reg/MFRarities",
+        "field": "TOPAZ"
+      }
+    }
+  ]
+}

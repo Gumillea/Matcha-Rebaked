@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "matchaflavoured:block/obol_block"
+    }
+  }
+}

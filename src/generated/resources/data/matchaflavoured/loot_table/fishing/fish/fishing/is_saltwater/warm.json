@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:rainbow_wrasse",
+          "weight": 35
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:gurnard",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:flounder",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "matchaflavoured:blue_marlin",
+          "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

@@ -1,0 +1,96 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/tomato"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_warped_fungus"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:warped_pizza"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_braised_warped_fungus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:braised_warped_fungus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_crops/tomato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:crops/tomato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/cheese"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shaped/warped_pizza"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_braised_warped_fungus",
+      "has_foods/cheese",
+      "has_crops/tomato",
+      "has_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shaped/warped_pizza"
+    ]
+  }
+}

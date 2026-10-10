@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:fox_pelt"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tattered_leather"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:item_frame"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "l": [
+      {
+        "item": "minecraft:rabbit_hide"
+      },
+      {
+        "item": "matchaflavoured:fox_pelt"
+      },
+      {
+        "item": "matchaflavoured:tattered_leather"
+      }
+    ],
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " s ",
+    "sls",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:item_frame"
+  }
+}

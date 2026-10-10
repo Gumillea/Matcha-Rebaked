@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "c": {
+      "tag": "c:ingots/copper"
+    },
+    "l": {
+      "item": "minecraft:lightning_rod"
+    }
+  },
+  "pattern": [
+    "ccc",
+    "clc",
+    "c c"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:bell"
+  }
+}

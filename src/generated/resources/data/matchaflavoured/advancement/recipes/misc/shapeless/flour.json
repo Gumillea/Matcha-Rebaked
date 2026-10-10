@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flour"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/flour"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wheat_seeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat_seeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wheat_seeds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/flour"
+    ]
+  }
+}

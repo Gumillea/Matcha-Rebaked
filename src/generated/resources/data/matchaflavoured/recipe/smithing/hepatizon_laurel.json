@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_laurel"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:hepatizon_alloy"
+  },
+  "base": {
+    "tag": "c:ingots/silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:hepatizon_laurel"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:phosphor"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ink_sac": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ink_sac"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_phosphor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:phosphor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/glow_ink_sac"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_phosphor",
+      "has_ink_sac"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/glow_ink_sac"
+    ]
+  }
+}

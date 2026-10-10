@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:obol"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:obol_block"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:obol"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:obol_block"
+  }
+}

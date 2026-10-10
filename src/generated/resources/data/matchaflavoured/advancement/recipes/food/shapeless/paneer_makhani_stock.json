@@ -1,0 +1,130 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tomatoes"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:drinks/milk"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:paneer_makhani_stock"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bowl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bowl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_drinks/milk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:drinks/milk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_estus_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:estus_dust"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_foods/cheese": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/cheese"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oil": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:oil"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/paneer_makhani_stock"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomatoes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:tomatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bowl",
+      "has_tomatoes",
+      "has_estus_dust",
+      "has_sugar",
+      "has_oil",
+      "has_drinks/milk",
+      "has_foods/cheese"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/paneer_makhani_stock"
+    ]
+  }
+}

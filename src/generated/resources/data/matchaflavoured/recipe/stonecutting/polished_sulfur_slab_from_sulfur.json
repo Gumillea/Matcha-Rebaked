@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:polished_sulfur_slab"
+    }
+  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "matchaflavoured:sulfur"
+  },
+  "result": {
+    "count": 2,
+    "id": "matchaflavoured:polished_sulfur_slab"
+  }
+}

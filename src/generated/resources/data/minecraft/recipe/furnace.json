@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:furnace"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:campfire"
+    },
+    "m": {
+      "item": "minecraft:mud_bricks"
+    },
+    "p": {
+      "item": "minecraft:packed_mud"
+    }
+  },
+  "pattern": [
+    "m m",
+    "p p",
+    "mcm"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace"
+  }
+}

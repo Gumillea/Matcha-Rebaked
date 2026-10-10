@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:carbon_rich_iron"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steel_alloy"
+    }
+  ],
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "matchaflavoured:carbon_rich_iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:steel_alloy"
+  }
+}

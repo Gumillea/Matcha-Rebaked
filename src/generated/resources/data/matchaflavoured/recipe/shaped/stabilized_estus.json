@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:benzene"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:stabilized_estus"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": {
+      "item": "matchaflavoured:benzene"
+    },
+    "e": {
+      "item": "matchaflavoured:estus_dust"
+    },
+    "y": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "pattern": [
+    "ebe",
+    "eye",
+    "eee"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:stabilized_estus"
+  }
+}

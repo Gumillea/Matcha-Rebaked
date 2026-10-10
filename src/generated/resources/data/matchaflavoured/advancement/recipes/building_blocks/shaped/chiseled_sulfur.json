@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_slab"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:chiseled_sulfur"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sulfur_slab": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:sulfur_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shaped/chiseled_sulfur"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sulfur_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shaped/chiseled_sulfur"
+    ]
+  }
+}

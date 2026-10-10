@@ -1,0 +1,76 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:flour"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/potato"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:crops/carrot"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/raw_meat"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:curry_stock"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "tag": "c:crops/potato"
+    },
+    {
+      "tag": "c:crops/carrot"
+    },
+    {
+      "tag": "c:foods/raw_meat"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:curry_stock"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:bones"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bones": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:bones"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bone_meal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bones"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bone_meal"
+    ]
+  }
+}

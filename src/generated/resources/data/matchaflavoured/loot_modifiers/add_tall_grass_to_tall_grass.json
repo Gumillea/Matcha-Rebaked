@@ -1,0 +1,16 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:tall_grass"
+    }
+  ],
+  "type": "neoforge:add_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:blocks/tall_grass"
+    }
+  ],
+  "table": "matchaflavoured:inject/add_tall_grass_to_tall_grass"
+}

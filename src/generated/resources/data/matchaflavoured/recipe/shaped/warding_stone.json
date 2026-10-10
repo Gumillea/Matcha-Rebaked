@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:stabilized_estus"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:nazar"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:warding_stone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "n": {
+      "item": "matchaflavoured:nazar"
+    },
+    "s": {
+      "item": "matchaflavoured:stabilized_estus"
+    }
+  },
+  "pattern": [
+    "cnc",
+    "nsn",
+    "cnc"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:warding_stone"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:straw"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:straw"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    },
+    {
+      "item": "minecraft:mud"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:packed_mud"
+  }
+}

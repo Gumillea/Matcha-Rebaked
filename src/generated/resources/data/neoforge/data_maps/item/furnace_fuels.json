@@ -1,0 +1,16 @@
+{
+  "values": {
+    "matchaflavoured:short_dry_grass": {
+      "burn_time": 50
+    },
+    "matchaflavoured:stabilized_estus": {
+      "burn_time": 3200
+    },
+    "matchaflavoured:straw": {
+      "burn_time": 200
+    },
+    "matchaflavoured:tall_dry_grass": {
+      "burn_time": 100
+    }
+  }
+}

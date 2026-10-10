@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "base": {
+    "parent": "matchaflavoured:item/emerald_earrings_gui"
+  },
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "head": {
+      "parent": "matchaflavoured:item/emerald_earrings_3d"
+    }
+  }
+}

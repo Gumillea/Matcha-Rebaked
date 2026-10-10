@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "base": {
+    "parent": "matchaflavoured:item/opal_earrings_gui"
+  },
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "head": {
+      "parent": "matchaflavoured:item/opal_earrings_3d"
+    }
+  }
+}

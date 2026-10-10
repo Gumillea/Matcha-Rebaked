@@ -1,0 +1,39 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:fox_pelt"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tattered_leather"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:leather"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "s": [
+      {
+        "item": "minecraft:rabbit_hide"
+      },
+      {
+        "item": "matchaflavoured:fox_pelt"
+      },
+      {
+        "item": "matchaflavoured:tattered_leather"
+      }
+    ]
+  },
+  "pattern": [
+    "ss ",
+    "ss "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:leather"
+  }
+}

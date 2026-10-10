@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#matchaflavoured:fishing/is_freshwater/cold",
+    "#matchaflavoured:fishing/is_freshwater/cool",
+    "#matchaflavoured:fishing/is_freshwater/temperate",
+    "#matchaflavoured:fishing/is_freshwater/arid",
+    "#matchaflavoured:fishing/is_freshwater/tropical"
+  ]
+}

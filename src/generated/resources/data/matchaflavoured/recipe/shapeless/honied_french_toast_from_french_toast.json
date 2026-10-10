@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:french_toast"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:honied_french_toast"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:french_toast"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:honied_french_toast"
+  }
+}

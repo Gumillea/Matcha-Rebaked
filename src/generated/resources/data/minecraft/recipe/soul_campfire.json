@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:soul_campfire"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:campfire"
+    },
+    {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:soul_campfire"
+  }
+}

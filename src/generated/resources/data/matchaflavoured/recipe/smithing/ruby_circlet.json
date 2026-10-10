@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:ruby"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:ruby_circlet"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:ruby"
+  },
+  "base": {
+    "tag": "c:ingots/copper"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:ruby_circlet"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

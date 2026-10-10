@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "open=true":  { "model": "matchaflavoured:block/sack_open" },
+    "open=false": { "model": "matchaflavoured:block/sack_closed" }
+  }
+}

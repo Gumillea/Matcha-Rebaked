@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shakudo_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:shakudo_axe"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:shakudo_alloy"
+  },
+  "base": {
+    "item": "minecraft:stone_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:shakudo_axe"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

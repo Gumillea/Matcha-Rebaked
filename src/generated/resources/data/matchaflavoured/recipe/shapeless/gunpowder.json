@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:sulfur_chunk"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:gunpowder"
+  }
+}

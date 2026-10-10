@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:molasses"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:puerquito"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:molasses"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "tag": "c:dough"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "id": "matchaflavoured:puerquito"
+  }
+}

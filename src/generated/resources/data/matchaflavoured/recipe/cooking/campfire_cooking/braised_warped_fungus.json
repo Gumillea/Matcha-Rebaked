@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_warped_fungus"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:warped_fungus"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:braised_warped_fungus"
+  }
+}

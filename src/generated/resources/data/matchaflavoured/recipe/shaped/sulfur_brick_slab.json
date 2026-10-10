@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_bricks"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sulfur_brick_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:sulfur_bricks"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "matchaflavoured:sulfur_brick_slab"
+  }
+}

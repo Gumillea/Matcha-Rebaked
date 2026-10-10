@@ -1,0 +1,51 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/cheese"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pupusa"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dough"
+    },
+    {
+      "tag": "c:foods/cheese"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    },
+    [
+      {
+        "item": "minecraft:cooked_porkchop"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "id": "matchaflavoured:pupusa"
+  }
+}

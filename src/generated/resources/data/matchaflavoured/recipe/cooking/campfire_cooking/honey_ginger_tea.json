@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:honey_ginger_tea"
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 300,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:honey_bottle"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:honey_ginger_tea"
+  }
+}

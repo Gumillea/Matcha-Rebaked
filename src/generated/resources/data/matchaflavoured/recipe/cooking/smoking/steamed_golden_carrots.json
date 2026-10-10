@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steamed_golden_carrots"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:golden_carrot"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:steamed_golden_carrots"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tomatoes"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:grilled_tomatoes"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/smoking/grilled_tomatoes"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomatoes": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:tomatoes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tomatoes"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/smoking/grilled_tomatoes"
+    ]
+  }
+}

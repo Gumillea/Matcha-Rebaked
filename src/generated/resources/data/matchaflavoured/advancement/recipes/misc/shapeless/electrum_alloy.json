@@ -1,0 +1,78 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/gold"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:divine_fragment"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:electrum_alloy"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_divine_fragment": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:divine_fragment"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingots/gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/gold"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingots/silver": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:ingots/silver"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/electrum_alloy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_divine_fragment",
+      "has_ingots/gold",
+      "has_ingots/silver"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/electrum_alloy"
+    ]
+  }
+}

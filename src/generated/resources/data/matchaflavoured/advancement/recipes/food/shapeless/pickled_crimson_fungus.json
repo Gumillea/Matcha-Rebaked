@@ -1,0 +1,64 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_crimson_fungus"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:pickled_crimson_fungus"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_braised_crimson_fungus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:braised_crimson_fungus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brown_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glass_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/pickled_crimson_fungus"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glass_bottle",
+      "has_braised_crimson_fungus",
+      "has_brown_mushroom"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/pickled_crimson_fungus"
+    ]
+  }
+}

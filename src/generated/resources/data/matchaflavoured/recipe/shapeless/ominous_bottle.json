@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:benzene"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:benzene"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    },
+    {
+      "item": "minecraft:sculk_vein"
+    },
+    {
+      "item": "minecraft:sculk_vein"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:ominous_bottle"
+  }
+}

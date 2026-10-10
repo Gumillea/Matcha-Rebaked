@@ -1,0 +1,16 @@
+{
+  "type": "inland_port:replace_table",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#matchaflavoured:fishing/is_saltwater/cool"
+      }
+    },
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/fishing"
+    }
+  ],
+  "table": "matchaflavoured:replace/table/fishing/fish/fishing/is_saltwater/cool"
+}

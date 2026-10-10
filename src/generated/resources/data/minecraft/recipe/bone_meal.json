@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:bones"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:bones"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:bone_meal"
+  }
+}

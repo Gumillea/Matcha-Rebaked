@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "base": {
+    "parent": "matchaflavoured:item/hepatizon_laurel_gui"
+  },
+  "loader": "neoforge:separate_transforms",
+  "perspectives": {
+    "head": {
+      "parent": "matchaflavoured:item/hepatizon_laurel_3d"
+    }
+  }
+}

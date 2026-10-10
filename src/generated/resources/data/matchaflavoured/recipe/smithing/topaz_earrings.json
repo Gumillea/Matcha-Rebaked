@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:topaz"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:topaz_earrings"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:topaz"
+  },
+  "base": {
+    "tag": "c:ingots/silver"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:topaz_earrings"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

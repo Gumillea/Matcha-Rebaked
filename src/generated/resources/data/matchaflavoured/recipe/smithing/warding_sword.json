@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:nazar"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:warding_sword"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:iron_sword"
+  },
+  "base": {
+    "item": "matchaflavoured:nazar"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:warding_sword"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

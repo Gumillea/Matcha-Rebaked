@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blueprint"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steel_alloy"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:steel_pickaxe"
+    }
+  ],
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "matchaflavoured:steel_alloy"
+  },
+  "base": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:steel_pickaxe"
+  },
+  "template": {
+    "item": "matchaflavoured:blueprint"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:flour"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/raw_fish"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:green_curry_stock"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "matchaflavoured:estus_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:flour"
+    },
+    {
+      "item": "matchaflavoured:oil"
+    },
+    {
+      "tag": "c:foods/raw_fish"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:green_curry_stock"
+  }
+}

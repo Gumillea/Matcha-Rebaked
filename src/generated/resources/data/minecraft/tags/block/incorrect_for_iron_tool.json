@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "matchaflavoured:silver_ore",
+    "matchaflavoured:deepslate_silver_ore",
+    "matchaflavoured:sulfur_ore"
+  ],
+  "values": []
+}

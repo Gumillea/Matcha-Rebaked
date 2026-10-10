@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:straw_bale"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:obol"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:beacon_kindling"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": {
+      "item": "minecraft:campfire"
+    },
+    "o": {
+      "item": "matchaflavoured:obol"
+    },
+    "s": {
+      "item": "matchaflavoured:straw_bale"
+    }
+  },
+  "pattern": [
+    " o ",
+    " c ",
+    " s "
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:beacon_kindling"
+  }
+}

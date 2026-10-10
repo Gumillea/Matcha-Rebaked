@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:straw"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:straw_bale"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "matchaflavoured:straw"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:straw_bale"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:seitan"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:dough"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    [
+      {
+        "item": "minecraft:carrot"
+      },
+      {
+        "item": "minecraft:dried_kelp"
+      },
+      {
+        "item": "minecraft:potato"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:seitan"
+  }
+}

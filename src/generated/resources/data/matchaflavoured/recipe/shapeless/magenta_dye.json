@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hyacinth"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "matchaflavoured:hyacinth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:magenta_dye"
+  }
+}

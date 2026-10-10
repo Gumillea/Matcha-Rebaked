@@ -1,0 +1,22 @@
+{
+  "container.inventory": "",
+  "container.chest": "§0箱子",
+  "container.loom": "§0织布机",
+  "container.crafting": "",
+  "block.minecraft.furnace": "泥窑",
+  "block.minecraft.smoker": "烤炉",
+  "container.furnace": "泥窑",
+  "container.smoker": "烤炉",
+  "item.minecraft.quartz": "石英",
+  "item.minecraft.flint_and_steel": "点火器",
+  "item.minecraft.disc_fragment_5": "唱片残片",
+  "item.minecraft.disc_fragment_5.desc": "用于合成音乐唱片",
+  "item.minecraft.wheat_seeds": "小麦籽粒",
+  "item.minecraft.stone_axe": "铜斧",
+  "item.minecraft.stone_pickaxe": "铜镐",
+  "item.minecraft.stone_sword": "铜剑",
+  "item.minecraft.stone_hoe": "铜锄",
+  "item.minecraft.stone_shovel": "铜锹",
+  "block.minecraft.campfire": "柴薪",
+  "block.minecraft.soul_campfire": "灵魂柴薪"
+}

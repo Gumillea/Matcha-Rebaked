@@ -1,0 +1,64 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/copper"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/silver"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:ingots/gold"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:hepatizon_alloy"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/copper"
+    },
+    {
+      "tag": "c:ingots/silver"
+    },
+    {
+      "tag": "c:ingots/gold"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:hepatizon_alloy"
+  }
+}

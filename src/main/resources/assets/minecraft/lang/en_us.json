@@ -1,0 +1,22 @@
+{
+  "container.inventory": "",
+  "container.chest": "§0Chest",
+  "container.loom": "§0Loom",
+  "container.crafting": "",
+  "block.minecraft.furnace": "Mud Kiln",
+  "block.minecraft.smoker": "Oven",
+  "container.furnace": "Mud Kiln",
+  "container.smoker": "Oven",
+  "item.minecraft.quartz": "Quartz",
+  "item.minecraft.flint_and_steel": "Fire Starter",
+  "item.minecraft.disc_fragment_5": "Disc Fragment",
+  "item.minecraft.disc_fragment_5.desc": "Used to craft Music Discs",
+  "item.minecraft.wheat_seeds": "Wheat Grain",
+  "item.minecraft.stone_axe": "Copper Axe",
+  "item.minecraft.stone_pickaxe": "Copper Pickaxe",
+  "item.minecraft.stone_sword": "Copper Sword",
+  "item.minecraft.stone_hoe": "Copper Hoe",
+  "item.minecraft.stone_shovel": "Copper Shovel",
+  "block.minecraft.campfire": "Kindling",
+  "block.minecraft.soul_campfire": "Soul Kindling"
+}

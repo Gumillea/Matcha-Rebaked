@@ -1,0 +1,387 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:arapaima"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:armoured_catfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bass"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:black_seabass"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:carp"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:catfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:echo_eel"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:european_eel"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flounder"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:gar"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mahi_mahi"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:monkfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:muskellunge"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:northern_pike"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oarfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:opah"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:painted_moray"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:siberian_sturgeon"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:skate"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sturgeon"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blue_marlin"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tunisian_barb"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:walleye"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:wolffish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:cooked_large_fish"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arapaima": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:arapaima"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_armoured_catfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:armoured_catfish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_bass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:bass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_black_seabass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:black_seabass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_blue_marlin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:blue_marlin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_carp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:carp"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_catfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:catfish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_echo_eel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:echo_eel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_european_eel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:european_eel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flounder": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:flounder"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:gar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mahi_mahi": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:mahi_mahi"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_monkfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:monkfish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_muskellunge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:muskellunge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_northern_pike": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:northern_pike"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_oarfish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:oarfish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_opah": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:opah"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_painted_moray": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:painted_moray"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_siberian_sturgeon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:siberian_sturgeon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_skate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:skate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_sturgeon": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:sturgeon"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:cooking/campfire_cooking/cooked_large_fish"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tunisian_barb": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:tunisian_barb"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_walleye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:walleye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wolffish": {
+      "conditions": {
+        "items": [
+          {
+            "items": "matchaflavoured:wolffish"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_arapaima",
+      "has_armoured_catfish",
+      "has_bass",
+      "has_black_seabass",
+      "has_carp",
+      "has_catfish",
+      "has_echo_eel",
+      "has_european_eel",
+      "has_flounder",
+      "has_gar",
+      "has_mahi_mahi",
+      "has_monkfish",
+      "has_muskellunge",
+      "has_northern_pike",
+      "has_oarfish",
+      "has_opah",
+      "has_painted_moray",
+      "has_siberian_sturgeon",
+      "has_skate",
+      "has_sturgeon",
+      "has_blue_marlin",
+      "has_tunisian_barb",
+      "has_walleye",
+      "has_wolffish"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:cooking/campfire_cooking/cooked_large_fish"
+    ]
+  }
+}

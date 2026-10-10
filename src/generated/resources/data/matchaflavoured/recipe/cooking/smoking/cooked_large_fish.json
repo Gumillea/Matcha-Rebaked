@@ -1,0 +1,186 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:arapaima"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:armoured_catfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:bass"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:black_seabass"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:carp"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:catfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:echo_eel"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:european_eel"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:flounder"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:gar"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:mahi_mahi"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:monkfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:muskellunge"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:northern_pike"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:oarfish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:opah"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:painted_moray"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:siberian_sturgeon"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:skate"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:sturgeon"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:blue_marlin"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:tunisian_barb"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:walleye"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:wolffish"
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:cooked_large_fish"
+    }
+  ],
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": [
+    {
+      "item": "matchaflavoured:arapaima"
+    },
+    {
+      "item": "matchaflavoured:armoured_catfish"
+    },
+    {
+      "item": "matchaflavoured:bass"
+    },
+    {
+      "item": "matchaflavoured:black_seabass"
+    },
+    {
+      "item": "matchaflavoured:carp"
+    },
+    {
+      "item": "matchaflavoured:catfish"
+    },
+    {
+      "item": "matchaflavoured:echo_eel"
+    },
+    {
+      "item": "matchaflavoured:european_eel"
+    },
+    {
+      "item": "matchaflavoured:flounder"
+    },
+    {
+      "item": "matchaflavoured:gar"
+    },
+    {
+      "item": "matchaflavoured:mahi_mahi"
+    },
+    {
+      "item": "matchaflavoured:monkfish"
+    },
+    {
+      "item": "matchaflavoured:muskellunge"
+    },
+    {
+      "item": "matchaflavoured:northern_pike"
+    },
+    {
+      "item": "matchaflavoured:oarfish"
+    },
+    {
+      "item": "matchaflavoured:opah"
+    },
+    {
+      "item": "matchaflavoured:painted_moray"
+    },
+    {
+      "item": "matchaflavoured:siberian_sturgeon"
+    },
+    {
+      "item": "matchaflavoured:skate"
+    },
+    {
+      "item": "matchaflavoured:sturgeon"
+    },
+    {
+      "item": "matchaflavoured:blue_marlin"
+    },
+    {
+      "item": "matchaflavoured:tunisian_barb"
+    },
+    {
+      "item": "matchaflavoured:walleye"
+    },
+    {
+      "item": "matchaflavoured:wolffish"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:cooked_large_fish"
+  }
+}

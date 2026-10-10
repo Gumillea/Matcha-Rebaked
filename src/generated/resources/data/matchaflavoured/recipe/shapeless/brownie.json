@@ -1,0 +1,42 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:foods/chocolate"
+      }
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:brownie"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:foods/chocolate"
+    },
+    {
+      "tag": "c:foods/chocolate"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "c:dough"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "matchaflavoured:brownie"
+  }
+}

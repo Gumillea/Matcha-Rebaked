@@ -1,0 +1,89 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dough"
+      }
+    },
+    {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:seitan"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carrot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carrot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dough": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:dough"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dried_kelp": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_kelp"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_potato": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potato"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "matchaflavoured:shapeless/seitan"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potion",
+      "has_carrot",
+      "has_dried_kelp",
+      "has_potato",
+      "has_dough"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "matchaflavoured:shapeless/seitan"
+    ]
+  }
+}
