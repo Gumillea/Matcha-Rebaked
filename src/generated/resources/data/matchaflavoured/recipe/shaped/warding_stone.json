@@ -2,11 +2,11 @@
   "neoforge:conditions": [
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:stabilized_estus"
+      "item": "matchaflavoured:nazar"
     },
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:nazar"
+      "item": "matchaflavoured:stabilized_estus"
     },
     {
       "type": "inland_port:not_disabled",

@@ -127,8 +127,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_blueprint",
       "has_netherrack",
+      "has_blueprint",
       "has_netherite_axe",
       "has_netherite_boots",
       "has_netherite_helmet",

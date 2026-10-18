@@ -4,6 +4,7 @@ import com.gumillea.inlandport.core.data.modifiers.IPLootModifierProvider;
 import com.gumillea.inlandport.core.util.utils.IPUtil;
 import com.gumillea.matchaflavoured.MatchaFlavoured;
 import com.gumillea.matchaflavoured.core.data.tags.MFBiomeTags;
+import com.gumillea.matchaflavoured.core.reg.MFBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.PackOutput;
@@ -47,6 +48,8 @@ public class MFLootTableModifierProvider extends IPLootModifierProvider {
         inject(OBOL.get(), new Object[]{BuiltInLootTables.ABANDONED_MINESHAFT, BuiltInLootTables.SIMPLE_DUNGEON}, 0.2F);
 
         replaceItem(BuiltInLootTables.TRAIL_RUINS_ARCHAEOLOGY_COMMON, GOLD_NUGGET, AMBER.get());
+        replaceItem(BuiltInLootTables.TRAIL_RUINS_ARCHAEOLOGY_COMMON, YELLOW_DYE, MFBlocks.CLAY_FETISH_LAMENT.get().asItem());
+        replaceItem(BuiltInLootTables.TRAIL_RUINS_ARCHAEOLOGY_COMMON, ORANGE_DYE, MFBlocks.CLAY_FETISH_REJOICE.get().asItem());
         inject(RUBY.get(), BuiltInLootTables.BASTION_TREASURE, 1F);
         inject(RUBY.get(), new Object[]{BuiltInLootTables.BASTION_BRIDGE, BuiltInLootTables.BASTION_OTHER, BuiltInLootTables.BASTION_HOGLIN_STABLE}, 0.15F);
         inject(OPAL.get(), EntityType.ELDER_GUARDIAN);

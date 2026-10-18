@@ -37,8 +37,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_echo_shard",
-      "has_disc_fragment_5"
+      "has_disc_fragment_5",
+      "has_echo_shard"
     ]
   ],
   "rewards": {

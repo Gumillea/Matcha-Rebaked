@@ -2,11 +2,11 @@
   "neoforge:conditions": [
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:stabilized_estus"
+      "item": "matchaflavoured:nazar"
     },
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:nazar"
+      "item": "matchaflavoured:stabilized_estus"
     },
     {
       "type": "inland_port:not_disabled",
@@ -55,9 +55,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stabilized_estus",
+      "has_chiseled_stone_bricks",
       "has_nazar",
-      "has_chiseled_stone_bricks"
+      "has_stabilized_estus"
     ]
   ],
   "rewards": {

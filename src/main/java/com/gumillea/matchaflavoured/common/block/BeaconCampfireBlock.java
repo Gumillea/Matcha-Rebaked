@@ -78,8 +78,8 @@ public class BeaconCampfireBlock extends Block {
             level.addParticle(ParticleTypes.FLAME, (double)pos.getX() + random.nextDouble(), (double)pos.getY() + (double)0.75F, (double)pos.getZ() + random.nextDouble(), (random.nextDouble() - 0.5) * 0.3, (random.nextDouble() - 0.8) * 0.1, (random.nextDouble() - 0.5) * 0.3);
         }
 
-        level.playLocalSound(pos, SoundEvents.WITHER_SPAWN, SoundSource.BLOCKS, 0.5F, 1F, true);
-        level.playLocalSound(pos, SoundEvents.FIRECHARGE_USE, SoundSource.BLOCKS, 0.5F, 1F, true);
+        level.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.WITHER_SPAWN, SoundSource.BLOCKS, 0.5F, 1.0F);
+        level.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.FIRECHARGE_USE, SoundSource.BLOCKS, 0.5F, 1.0F);
 
         if (!level.isClientSide) {
             level.scheduleTick(pos, this, 12000);
@@ -112,7 +112,7 @@ public class BeaconCampfireBlock extends Block {
             trader.moveTo(pos.getX() + 0.5D, pos.getY() + 1.0D, pos.getZ() + 0.5D, random.nextFloat() * 360.0F, 0.0F);
         }
 
-        level.playLocalSound(pos, SoundEvents.BELL_BLOCK, SoundSource.BLOCKS, 0.5F, 1F, true);
+        level.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.BELL_BLOCK, SoundSource.BLOCKS, 1.0F, 1.0F);
         trader.setDespawnDelay(48000);
         level.addFreshEntity(trader);
 

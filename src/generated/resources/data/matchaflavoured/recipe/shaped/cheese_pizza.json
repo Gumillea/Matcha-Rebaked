@@ -4,7 +4,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:crops/tomato"
+        "tag": "c:dough"
       }
     },
     {
@@ -18,7 +18,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:dough"
+        "tag": "c:crops/tomato"
       }
     },
     {

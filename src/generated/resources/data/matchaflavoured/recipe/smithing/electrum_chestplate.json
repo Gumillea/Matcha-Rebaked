@@ -15,10 +15,10 @@
   ],
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "matchaflavoured:electrum_alloy"
+    "item": "minecraft:diamond_chestplate"
   },
   "base": {
-    "item": "minecraft:diamond_chestplate"
+    "item": "matchaflavoured:electrum_alloy"
   },
   "result": {
     "count": 1,

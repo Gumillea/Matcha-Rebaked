@@ -61,10 +61,10 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_string",
       "has_rabbit_hide",
       "has_fox_pelt",
-      "has_tattered_leather"
+      "has_tattered_leather",
+      "has_string"
     ]
   ],
   "rewards": {

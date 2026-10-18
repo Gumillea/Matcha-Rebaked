@@ -1,9 +1,9 @@
 {
   "values": [
-    "matchaflavoured:steel_boots",
     "matchaflavoured:shakudo_boots",
-    "matchaflavoured:hepatizon_boots",
+    "matchaflavoured:copper_boots",
+    "matchaflavoured:steel_boots",
     "matchaflavoured:electrum_boots",
-    "matchaflavoured:copper_boots"
+    "matchaflavoured:hepatizon_boots"
   ]
 }

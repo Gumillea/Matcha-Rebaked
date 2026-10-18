@@ -4,7 +4,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:crops/tomato"
+        "tag": "c:dough"
       }
     },
     {
@@ -18,7 +18,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:dough"
+        "tag": "c:crops/tomato"
       }
     },
     {
@@ -68,9 +68,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_crops/tomato",
+      "has_dough",
       "has_foods/cheese",
-      "has_dough"
+      "has_crops/tomato"
     ]
   ],
   "rewards": {

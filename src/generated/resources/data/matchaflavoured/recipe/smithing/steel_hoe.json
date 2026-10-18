@@ -15,10 +15,10 @@
   ],
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "matchaflavoured:steel_alloy"
+    "item": "minecraft:iron_hoe"
   },
   "base": {
-    "item": "minecraft:iron_hoe"
+    "item": "matchaflavoured:steel_alloy"
   },
   "result": {
     "count": 1,

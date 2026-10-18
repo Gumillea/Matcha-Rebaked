@@ -4,9 +4,11 @@ import com.gumillea.inlandport.common.block.crop.Age3Block;
 import com.gumillea.inlandport.common.block.family.Variant;
 import com.gumillea.inlandport.core.api.record.RegConditions;
 import com.gumillea.inlandport.core.util.helpers.reg.BlockHelper;
+import com.gumillea.inlandport.core.util.helpers.reg.RegHelper;
 import com.gumillea.inlandport.core.util.utils.VariantUtil;
 import com.gumillea.matchaflavoured.MatchaFlavoured;
 import com.gumillea.matchaflavoured.common.block.*;
+import com.gumillea.matchaflavoured.common.item.ClayFetishItem;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -39,11 +41,19 @@ public class MFBlocks {
 
     public static final DeferredHolder<Block, Block> BEACON_KINDLING = HELPER.reg("beacon_kindling", () -> new BeaconCampfireBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.OAK_PLANKS).lightLevel((state) -> 15).noOcclusion()), new Item.Properties().stacksTo(1));
     public static final DeferredHolder<Block, Block> SACK = HELPER.regShulkerBoxLikeBlock("sack", () -> new SackBlock(null, Properties.SACK), new Item.Properties().stacksTo(1).component(DataComponents.CONTAINER, ItemContainerContents.EMPTY));
+    public static final DeferredHolder<Block, Block> CLAY_FETISH_REJOICE = regFetish("clay_fetish_rejoice", "clear");
+    public static final DeferredHolder<Block, Block> CLAY_FETISH_LAMENT = regFetish("clay_fetish_lament", "rain");
 
     public static final DeferredHolder<Block, Block> TOMATOES_CROP = HELPER.regWithoutItem("tomatoes_crop", () -> new Age3Block(BlockBehaviour.Properties.ofFullCopy(Blocks.BEETROOTS), 3, MFItems.TOMATO_SEEDS));
     public static final DeferredHolder<Block, Block> CYAN_ROSE = HELPER.reg("cyan_rose", () -> new FlowerBlock(MobEffects.ABSORPTION, 5.0F, BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_ORCHID)));
     public static final DeferredHolder<Block, Block> HYACINTH = HELPER.reg("hyacinth", () -> new FlowerBlock(MobEffects.WIND_CHARGED, 10.0F, BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_TULIP)));
 
+
+    public static DeferredHolder<Block, Block> regFetish(String name, String weather) {
+        DeferredHolder<Block, Block> block = HELPER.regWithoutItem(name, () -> new ClayFetishBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.FLOWER_POT)).changesWeather(weather), null);
+        RegHelper.reg(HELPER.itemReg, name, () -> new ClayFetishItem(block.value(), new Item.Properties()), () -> new Item(new Item.Properties()), null);
+        return block;
+    }
 
     static class Properties {
         public static final BlockBehaviour.Properties SULFUR = BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).mapColor(MapColor.COLOR_YELLOW);

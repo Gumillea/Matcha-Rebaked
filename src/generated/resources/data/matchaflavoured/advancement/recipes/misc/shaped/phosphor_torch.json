@@ -41,8 +41,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stick",
-      "has_phosphor"
+      "has_phosphor",
+      "has_stick"
     ]
   ],
   "rewards": {

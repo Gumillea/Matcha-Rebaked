@@ -2,7 +2,8 @@
   "values": [
     "matchaflavoured:electrum_hoe",
     "matchaflavoured:shakudo_hoe",
+    "matchaflavoured:hepatizon_hoe",
     "matchaflavoured:steel_hoe",
-    "matchaflavoured:hepatizon_hoe"
+    "#c:mottocks"
   ]
 }

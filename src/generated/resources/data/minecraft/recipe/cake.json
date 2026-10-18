@@ -4,7 +4,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:eggs"
+        "tag": "c:foods/sweet_berry"
       }
     },
     {
@@ -18,7 +18,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:foods/sweet_berry"
+        "tag": "c:eggs"
       }
     },
     {

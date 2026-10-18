@@ -54,8 +54,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_bricks",
       "has_campfire",
+      "has_bricks",
       "has_ingots/iron"
     ]
   ],

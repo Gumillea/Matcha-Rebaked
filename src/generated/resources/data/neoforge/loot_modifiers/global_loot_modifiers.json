@@ -9,6 +9,8 @@
     "matchaflavoured:add_obol_to_abandoned_mineshaft",
     "matchaflavoured:add_obol_to_simple_dungeon",
     "matchaflavoured:replace_gold_nugget_with_amber_in_trail_ruins_common",
+    "matchaflavoured:replace_yellow_dye_with_clay_fetish_lament_in_trail_ruins_common",
+    "matchaflavoured:replace_orange_dye_with_clay_fetish_rejoice_in_trail_ruins_common",
     "matchaflavoured:add_ruby_to_bastion_treasure",
     "matchaflavoured:add_ruby_to_bastion_bridge",
     "matchaflavoured:add_ruby_to_bastion_other",

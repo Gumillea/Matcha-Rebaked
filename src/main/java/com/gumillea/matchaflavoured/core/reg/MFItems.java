@@ -225,6 +225,8 @@ public class MFItems {
     public static final DeferredHolder<Item, Item> CRYSTAL_HEART = HELPER.reg("crystal_heart", () -> new CrystalHeartItem(new Item.Properties().rarity(Rarity.RARE).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true)));
 
     public static final DeferredHolder<Item, Item> BLUEPRINT = HELPER.reg("blueprint", () -> new Item(new Item.Properties()));
+    public static final DeferredHolder<Item, Item> GENERIC_UPGRADE_SMITHING_TEMPLATE = HELPER.regUpgradeSmithingTemplate("generic_upgrade_smithing_template");
+
     public static final DeferredHolder<Item, Item> CHORUS_MOCHI_RECIPE = HELPER.reg("chorus_mochi_recipe", () -> new SecretRecipeItem(new Item.Properties(), CHORUS_MOCHI, SecretRecipeItem.CHORUS_MOCHI));
     public static final DeferredHolder<Item, Item> SWEET_BERRY_TOAST_RECIPE = HELPER.reg("sweet_berry_toast_recipe", () -> new SecretRecipeItem(new Item.Properties(), SWEET_BERRY_TOAST, SecretRecipeItem.SWEET_BERRY_TOAST));
     public static final DeferredHolder<Item, Item> GNOCCHI_RECIPE = HELPER.reg("gnocchi_recipe", () -> new SecretRecipeItem(new Item.Properties(), GNOCCHI, SecretRecipeItem.GNOCCHI));
@@ -250,25 +252,35 @@ public class MFItems {
     public static final DeferredHolder<Item, Item> EMERALD_EARRINGS = HELPER.reg("emerald_earrings", () -> new EarringItem(new Item.Properties().attributes(EarringItem.createAttributes(Attributes.LUCK,1)), null));
     public static final DeferredHolder<Item, Item> DIAMOND_EARRINGS = HELPER.reg("diamond_earrings", () -> new EarringItem(new Item.Properties().attributes(EarringItem.createAttributes(Attributes.ARMOR,2)), null));
 
-   public static final DeferredHolder<Item, Item> AMBER_EARRINGS = HELPER.reg("amber_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.AMBER.getValue()), MobEffects.REGENERATION));
-    public static final DeferredHolder<Item, Item> OPAL_EARRINGS = HELPER.reg("opal_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.OPAL.getValue()), MobEffects.DOLPHINS_GRACE));
-    public static final DeferredHolder<Item, Item> TOPAZ_EARRINGS = HELPER.reg("topaz_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.TOPAZ.getValue()), MobEffects.DIG_SPEED));
+    public static final DeferredHolder<Item, Item> AMBER_EARRINGS = HELPER.reg("amber_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.AMBER.getValue()).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true), MobEffects.REGENERATION));
+    public static final DeferredHolder<Item, Item> OPAL_EARRINGS = HELPER.reg("opal_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.OPAL.getValue()).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true), MobEffects.DOLPHINS_GRACE));
+    public static final DeferredHolder<Item, Item> TOPAZ_EARRINGS = HELPER.reg("topaz_earrings", () -> new EarringItem(new Item.Properties().rarity(MFRarities.TOPAZ.getValue()).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true), MobEffects.DIG_SPEED));
 
     public static final DeferredHolder<Item, Item> NAZAR_CIRCLET = HELPER.reg("nazar_circlet", () -> new EarringItem(new Item.Properties().attributes(EarringItem.createAttributes(MFAttributes.WARDING_POWER,1)), null));
-    public static final DeferredHolder<Item, Item> RUBY_CIRCLET = HELPER.reg("ruby_circlet", () -> new EarringItem(new Item.Properties().rarity(MFRarities.RUBY.getValue()), MobEffects.FIRE_RESISTANCE));
+    public static final DeferredHolder<Item, Item> RUBY_CIRCLET = HELPER.reg("ruby_circlet", () -> new EarringItem(new Item.Properties().rarity(MFRarities.RUBY.getValue()).component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true), MobEffects.FIRE_RESISTANCE));
     public static final DeferredHolder<Item, Item> HEPATIZON_LAUREL = HELPER.reg("hepatizon_laurel", () -> new EarringItem(new Item.Properties().attributes(EarringItem.createAttributes(Attributes.MOVEMENT_SPEED,0.1)), null));
 
     public static final DeferredHolder<Item, Item> WARDING_SWORD = HELPER.reg("warding_sword", () -> new WardingSwordItem(MFTiers.NAZAR, new Item.Properties().attributes(WardingSwordItem.createAttributes(MFTiers.NAZAR, 3, -2.4F, 1))));
     public static final DeferredHolder<Item, Item> SILVER_SWORD = HELPER.reg("silver_sword", () -> new WardingSwordItem(MFTiers.SILVER, new Item.Properties().attributes(WardingSwordItem.createAttributes(MFTiers.SILVER, 3, -2.4F, 2))));
     public static final DeferredHolder<Item, Item> WARDING_SHIELD = HELPER.reg("warding_shield", () -> new WardingShieldItem(new Item.Properties().rarity(Rarity.UNCOMMON).attributes(WardingPowerItem.createAttributes(1)).durability(504)));
 
+    public static final DeferredHolder<Item, Item> COPPER_DOLABRA = regDolabraItem("copper_dolabra", new Item.Properties(), MFTiers.COPPER, 3, -3.2F, MFItemCond.COPPER);
+    public static final DeferredHolder<Item, Item> COPPER_MATTOCK = regMattockItem("copper_mattock", new Item.Properties(), MFTiers.COPPER, -1, -2.0F, MFItemCond.COPPER);
     public static final DeferredHolder<Item, Item> COPPER_ARMORS = HELPER.regArmors("copper", new Item.Properties(), COPPER_ARMOR, new int[] {121, 176, 165, 143}, MFItemCond.COPPER);
+
+    public static final DeferredHolder<Item, Item> IRON_DOLABRA = regDolabraItem("iron_dolabra", new Item.Properties(), Tiers.IRON, 3, -3.2F, MFItemCond.IRON);
+    public static final DeferredHolder<Item, Item> IRON_MATTOCK = regMattockItem("iron_mattock", new Item.Properties(), Tiers.IRON, -1, -2.0F, MFItemCond.IRON);
+
+    public static final DeferredHolder<Item, Item> DIAMOND_DOLABRA = regDolabraItem("diamond_dolabra", new Item.Properties(), Tiers.DIAMOND, 3, -3.2F, MFItemCond.DIAMOND);
+    public static final DeferredHolder<Item, Item> DIAMOND_MATTOCK = regMattockItem("diamond_mattock", new Item.Properties(), Tiers.DIAMOND, -1, -2.0F, MFItemCond.DIAMOND);
 
     public static final DeferredHolder<Item, Item> STEEL_SWORD = HELPER.regSwordItem("steel_sword", new Item.Properties(), MFTiers.STEEL, 3, -2.4F, MFItemCond.STEEL);
     public static final DeferredHolder<Item, Item> STEEL_AXE = HELPER.regAxeItem("steel_axe", new Item.Properties(), MFTiers.STEEL, 6, -3.1F, MFItemCond.STEEL);
     public static final DeferredHolder<Item, Item> STEEL_PICKAXE = HELPER.regPickaxeItem("steel_pickaxe", new Item.Properties(), MFTiers.STEEL, 1, -2.8F, MFItemCond.STEEL);
     public static final DeferredHolder<Item, Item> STEEL_SHOVEL = HELPER.regShovelItem("steel_shovel", new Item.Properties(), MFTiers.STEEL, 1, -3.0F, MFItemCond.STEEL);
     public static final DeferredHolder<Item, Item> STEEL_HOE = HELPER.regHoeItem("steel_hoe", new Item.Properties(), MFTiers.STEEL, -2, -1.0F, MFItemCond.STEEL);
+    public static final DeferredHolder<Item, Item> STEEL_DOLABRA = regDolabraItem("steel_dolabra", new Item.Properties(), MFTiers.STEEL, 3, -3.2F, MFItemCond.STEEL);
+    public static final DeferredHolder<Item, Item> STEEL_MATTOCK = regMattockItem("steel_mattock", new Item.Properties(), MFTiers.STEEL, -1, -2.0F, MFItemCond.STEEL);
     public static final DeferredHolder<Item, Item> STEEL_ARMORS = HELPER.regArmors("steel", new Item.Properties(), STEEL_ARMOR, new int[] {1000, 1000, 1000, 1000}, MFItemCond.STEEL);
 
     public static final DeferredHolder<Item, Item> HEPATIZON_SWORD = HELPER.regSwordItem("hepatizon_sword", new Item.Properties(), MFTiers.HEPATIZON, 3, -2.4F, MFItemCond.HEPATIZON);
@@ -276,6 +288,8 @@ public class MFItems {
     public static final DeferredHolder<Item, Item> HEPATIZON_PICKAXE = HELPER.regPickaxeItem("hepatizon_pickaxe", new Item.Properties(), MFTiers.HEPATIZON, 1, -2.8F, MFItemCond.HEPATIZON);
     public static final DeferredHolder<Item, Item> HEPATIZON_SHOVEL = HELPER.regShovelItem("hepatizon_shovel", new Item.Properties(), MFTiers.HEPATIZON, 1, -3.0F, MFItemCond.HEPATIZON);
     public static final DeferredHolder<Item, Item> HEPATIZON_HOE = HELPER.regHoeItem("hepatizon_hoe", new Item.Properties(), MFTiers.HEPATIZON, -2, -1.0F, MFItemCond.HEPATIZON);
+    public static final DeferredHolder<Item, Item> HEPATIZON_DOLABRA = regDolabraItem("hepatizon_dolabra", new Item.Properties(), MFTiers.HEPATIZON, 3, -3.2F, MFItemCond.HEPATIZON);
+    public static final DeferredHolder<Item, Item> HEPATIZON_MATTOCK = regMattockItem("hepatizon_mattock", new Item.Properties(), MFTiers.HEPATIZON, -1, -2.0F, MFItemCond.HEPATIZON);
     public static final DeferredHolder<Item, Item> HEPATIZON_ARMORS = HELPER.regArmors("hepatizon", new Item.Properties(), HEPATIZON_ARMOR, new int[] {3000, 3000, 3000, 3000}, builder -> builder.add(Attributes.MOVEMENT_SPEED, new AttributeModifier(MatchaFlavoured.loc("hepatizon.movement_speed"), 0.01, AttributeModifier.Operation.ADD_MULTIPLIED_BASE), EquipmentSlotGroup.ARMOR), MFItemCond.HEPATIZON);
 
     public static final DeferredHolder<Item, Item> ELECTRUM_SWORD = HELPER.regSwordItem("electrum_sword", new Item.Properties(), MFTiers.ELECTRUM, 3, -2.0F, MFItemCond.ELECTRUM);
@@ -283,6 +297,8 @@ public class MFItems {
     public static final DeferredHolder<Item, Item> ELECTRUM_PICKAXE = HELPER.regPickaxeItem("electrum_pickaxe", new Item.Properties(), MFTiers.ELECTRUM, 1, -2.8F, MFItemCond.ELECTRUM);
     public static final DeferredHolder<Item, Item> ELECTRUM_SHOVEL = HELPER.regShovelItem("electrum_shovel", new Item.Properties(), MFTiers.ELECTRUM, 1, -3.0F, MFItemCond.ELECTRUM);
     public static final DeferredHolder<Item, Item> ELECTRUM_HOE = HELPER.regHoeItem("electrum_hoe", new Item.Properties(), MFTiers.ELECTRUM, -1, 0.0F, MFItemCond.ELECTRUM);
+    public static final DeferredHolder<Item, Item> ELECTRUM_DOLABRA = regDolabraItem("electrum_dolabra", new Item.Properties(), MFTiers.ELECTRUM, 3, -3.2F, MFItemCond.ELECTRUM);
+    public static final DeferredHolder<Item, Item> ELECTRUM_MATTOCK = regMattockItem("electrum_mattock", new Item.Properties(), MFTiers.ELECTRUM, -1, -2.0F, MFItemCond.ELECTRUM);
     public static final DeferredHolder<Item, Item> ELECTRUM_ARMORS = HELPER.regArmors("electrum", new Item.Properties(), ELECTRUM_ARMOR, new int[] {5000, 5000, 5000, 5000}, builder -> builder.add(MFAttributes.WARDING_POWER, new AttributeModifier(MatchaFlavoured.loc("electrum.warding_power"), 1, AttributeModifier.Operation.ADD_VALUE), EquipmentSlotGroup.ARMOR), MFItemCond.ELECTRUM);
 
     public static final DeferredHolder<Item, Item> SHAKUDO_SWORD = HELPER.regSwordItem("shakudo_sword", new Item.Properties(), MFTiers.SHAKUDO, 3, -2.4F, MFItemCond.SHAKUDO);
@@ -290,11 +306,19 @@ public class MFItems {
     public static final DeferredHolder<Item, Item> SHAKUDO_PICKAXE = HELPER.regPickaxeItem("shakudo_pickaxe", new Item.Properties(), MFTiers.SHAKUDO, 1, -2.8F, MFItemCond.SHAKUDO);
     public static final DeferredHolder<Item, Item> SHAKUDO_SHOVEL = HELPER.regShovelItem("shakudo_shovel", new Item.Properties(), MFTiers.SHAKUDO, 1, -3.0F, MFItemCond.SHAKUDO);
     public static final DeferredHolder<Item, Item> SHAKUDO_HOE = HELPER.regHoeItem("shakudo_hoe", new Item.Properties(), MFTiers.SHAKUDO, -2, -1.0F, MFItemCond.SHAKUDO);
+    public static final DeferredHolder<Item, Item> SHAKUDO_DOLABRA = regDolabraItem("shakudo_dolabra", new Item.Properties(), MFTiers.SHAKUDO, 3, -3.2F, MFItemCond.SHAKUDO);
+    public static final DeferredHolder<Item, Item> SHAKUDO_MATTOCK = regMattockItem("shakudo_mattock", new Item.Properties(), MFTiers.SHAKUDO, -1, -2.0F, MFItemCond.SHAKUDO);
     public static final DeferredHolder<Item, Item> SHAKUDO_ARMORS = HELPER.regArmors("shakudo", new Item.Properties(), SHAKUDO_ARMOR, new int[] {3000, 3000, 3000, 3000}, builder -> builder.add(IPAttributes.MANA_RESISTANCE, new AttributeModifier(MatchaFlavoured.loc("shakudo.mana_resistance"), 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE), EquipmentSlotGroup.ARMOR), MFItemCond.SHAKUDO);
 
     //trading
     public static final DeferredHolder<Item, Item> OBOL = HELPER.reg("obol", () -> new Item(new Item.Properties()));
     public static final DeferredHolder<Item, Item> APPLICATION = HELPER.reg("application", () -> new SpawnEggLikeItem(EntityType.VILLAGER, new Item.Properties()));
+
+    public static final DeferredHolder<Item, Item> MUSIC_DISC_CRETE = HELPER.regRecord("music_disc_crete", new Item.Properties());
+    public static final DeferredHolder<Item, Item> MUSIC_DISC_ELEGY_OF_THE_ABBEY = HELPER.regRecord("music_disc_elegy_of_the_abbey", new Item.Properties());
+    public static final DeferredHolder<Item, Item> MUSIC_DISC_GOLDEN = HELPER.regRecord("music_disc_golden", new Item.Properties());
+    public static final DeferredHolder<Item, Item> MUSIC_DISC_LABYRINTHINE = HELPER.regRecord("music_disc_labyrinthine", new Item.Properties());
+    public static final DeferredHolder<Item, Item> MUSIC_DISC_MALACHITE = HELPER.regRecord("music_disc_malachite", new Item.Properties());
 
     public static DeferredHolder<Item, Item> regFood(String name, Item.Properties properties, SoundEvent sound, float amount, FoodItem.Type type, RegConditions conditions) {
         return HELPER.reg(name, () -> new MFFoodItem(properties, sound, FoodItem.getDefaultDuration(), amount, type), conditions);
@@ -352,11 +376,21 @@ public class MFItems {
         return HELPER.reg(name, () -> new SecretFoodItem(properties, amount, type), conditions);
     }
 
+    public static DeferredHolder<Item, Item> regDolabraItem(String name, Item.Properties properties, Tier tier, int damage, float attackSpeed, RegConditions conditions) {
+        return HELPER.reg(name, () -> new DolabraItem(tier, properties.attributes(AxeItem.createAttributes(tier, (float)damage, attackSpeed))), conditions);
+    }
+
+    public static DeferredHolder<Item, Item> regMattockItem(String name, Item.Properties properties, Tier tier, int damage, float attackSpeed, RegConditions conditions) {
+        return HELPER.reg(name, () -> new MattockItem(tier, properties.attributes(AxeItem.createAttributes(tier, (float)damage, attackSpeed))), conditions);
+    }
+
     static class MFItemCond {
         public static final RegConditions TOMATOES = new RegConditions(MFItems.TOMATOES);
 
         public static final RegConditions COPPER = new RegConditions(Items.COPPER_INGOT);
+        public static final RegConditions IRON = new RegConditions(Items.IRON_INGOT);
         public static final RegConditions STEEL = new RegConditions(MFItems.STEEL_ALLOY);
+        public static final RegConditions DIAMOND = new RegConditions(Items.DIAMOND);
         public static final RegConditions HEPATIZON = new RegConditions(MFItems.HEPATIZON_ALLOY);
         public static final RegConditions ELECTRUM = new RegConditions(MFItems.ELECTRUM_ALLOY);
         public static final RegConditions SHAKUDO = new RegConditions(MFItems.SHAKUDO_ALLOY);

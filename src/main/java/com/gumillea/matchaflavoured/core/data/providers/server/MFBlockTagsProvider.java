@@ -2,6 +2,7 @@ package com.gumillea.matchaflavoured.core.data.providers.server;
 
 import com.gumillea.inlandport.core.data.providers.server.IPBlockTagsProvider;
 import com.gumillea.matchaflavoured.MatchaFlavoured;
+import com.gumillea.matchaflavoured.core.data.tags.MFBlockTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -24,6 +25,9 @@ public class MFBlockTagsProvider extends IPBlockTagsProvider {
         addIfExist(BlockTags.MINEABLE_WITH_HOE, SACK.get());
         addIfExist(BlockTags.MINEABLE_WITH_AXE, SACK.get());
         addIfExist(BlockTags.MINEABLE_WITH_PICKAXE, OBOL_BLOCK.get());
+
+        addIfExist(MFBlockTags.MINEABLE_WITH_DOLABRA, BlockTags.MINEABLE_WITH_PICKAXE, BlockTags.MINEABLE_WITH_AXE);
+        addIfExist(MFBlockTags.MINEABLE_WITH_MATTOCK, BlockTags.MINEABLE_WITH_SHOVEL, BlockTags.MINEABLE_WITH_HOE);
 
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).remove(Blocks.COPPER_ORE, Blocks.DEEPSLATE_COPPER_ORE);
         tag(BlockTags.INCORRECT_FOR_IRON_TOOL).remove(SILVER_ORE.get(), DEEPSLATE_SILVER_ORE.get(), SULFUR_ORE.get());

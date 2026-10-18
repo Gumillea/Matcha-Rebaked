@@ -2,11 +2,11 @@
   "neoforge:conditions": [
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:straw_bale"
+      "item": "matchaflavoured:obol"
     },
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:obol"
+      "item": "matchaflavoured:straw_bale"
     },
     {
       "type": "inland_port:not_disabled",
@@ -55,9 +55,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_straw_bale",
+      "has_campfire",
       "has_obol",
-      "has_campfire"
+      "has_straw_bale"
     ]
   ],
   "rewards": {

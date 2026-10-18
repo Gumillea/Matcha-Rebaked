@@ -15,10 +15,10 @@
   ],
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "matchaflavoured:shakudo_alloy"
+    "item": "minecraft:stone_sword"
   },
   "base": {
-    "item": "minecraft:stone_sword"
+    "item": "matchaflavoured:shakudo_alloy"
   },
   "result": {
     "count": 1,

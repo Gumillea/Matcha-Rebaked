@@ -47,9 +47,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_mud_bricks",
+      "has_packed_mud",
       "has_campfire",
-      "has_packed_mud"
+      "has_mud_bricks"
     ]
   ],
   "rewards": {

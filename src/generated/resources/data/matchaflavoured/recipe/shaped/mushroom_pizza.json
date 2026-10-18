@@ -1,10 +1,14 @@
 {
   "neoforge:conditions": [
     {
+      "type": "inland_port:not_disabled",
+      "item": "matchaflavoured:braised_brown_mushroom"
+    },
+    {
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:foods/cheese"
+        "tag": "c:dough"
       }
     },
     {
@@ -18,12 +22,8 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:dough"
+        "tag": "c:foods/cheese"
       }
-    },
-    {
-      "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:braised_brown_mushroom"
     },
     {
       "type": "inland_port:not_disabled",

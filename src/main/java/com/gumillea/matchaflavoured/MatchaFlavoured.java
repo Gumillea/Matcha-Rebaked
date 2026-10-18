@@ -1,5 +1,6 @@
 package com.gumillea.matchaflavoured;
 
+import com.gumillea.inlandport.core.data.providers.AutoDataGenerator;
 import com.gumillea.inlandport.core.util.helpers.IPClientHelper;
 import com.gumillea.inlandport.core.util.utils.IPUtil;
 import com.gumillea.matchaflavoured.core.data.modifiers.MFLootTableModifierProvider;
@@ -27,6 +28,9 @@ import org.slf4j.Logger;
 
 import java.util.concurrent.CompletableFuture;
 
+import static com.gumillea.inlandport.core.data.providers.AutoDataGenerator.Providers.SOUND_DEFINITION;
+import static com.gumillea.inlandport.core.data.providers.AutoDataGenerator.Providers.only;
+
 @Mod(MatchaFlavoured.MODID)
 public class MatchaFlavoured {
     public static final String MODID = "matchaflavoured";
@@ -42,6 +46,7 @@ public class MatchaFlavoured {
         MFEffects.HELPER.register(bus);
         MFAttributes.HELPER.register(bus);
         MFTiers.HELPER.register(bus);
+        MFSoundEvents.HELPER.register(bus);
 
         bus.addListener(this::commonSetup);
         bus.addListener(this::clientSetup);
@@ -67,6 +72,10 @@ public class MatchaFlavoured {
         ExistingFileHelper helper = event.getExistingFileHelper();
 
         boolean server = event.includeServer();
+        MFRegistrySets sets = new MFRegistrySets(output, provider);
+        generator.addProvider(server, sets);
+        provider = sets.getRegistryProvider();
+
         MFBlockTagsProvider blockTagsProvider = new MFBlockTagsProvider(output, provider, helper);
         generator.addProvider(server, blockTagsProvider);
         generator.addProvider(server, new MFItemTagsProvider(output, provider, blockTagsProvider.contentsGetter()));
@@ -84,5 +93,6 @@ public class MatchaFlavoured {
         generator.addProvider(client, new MFLanguageProvider(output));
         generator.addProvider(client, new MFSpriteSourceProvider(output, provider, helper));
 
+        AutoDataGenerator.add(event, MODID, only(SOUND_DEFINITION));
     }
 }

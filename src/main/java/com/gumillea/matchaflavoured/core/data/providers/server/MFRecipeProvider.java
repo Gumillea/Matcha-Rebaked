@@ -28,6 +28,7 @@ import java.util.concurrent.CompletableFuture;
 
 import static com.gumillea.matchaflavoured.core.reg.MFItems.*;
 import static com.gumillea.matchaflavoured.core.reg.MFBlocks.*;
+import static com.gumillea.matchaflavoured.core.reg.MFItems.HEPATIZON_DOLABRA;
 
 public class MFRecipeProvider extends IPRecipeProvider {
 
@@ -89,6 +90,15 @@ public class MFRecipeProvider extends IPRecipeProvider {
         shapelessRecipe(output, RecipeCategory.MISC, ELECTRUM_ALLOY.get(), 1, new Object[]{Tags.Items.INGOTS_GOLD, Tags.Items.INGOTS_GOLD, Tags.Items.INGOTS_GOLD, Tags.Items.INGOTS_GOLD, MFItemTags.INGOT_SILVER, MFItemTags.INGOT_SILVER, MFItemTags.INGOT_SILVER, MFItemTags.INGOT_SILVER, DIVINE_FRAGMENT});
         shapelessRecipe(output, RecipeCategory.MISC, SHAKUDO_ALLOY.get(), 1, new Object[]{Items.COPPER_BLOCK, Items.COPPER_BLOCK, Items.COPPER_BLOCK, Items.COPPER_BLOCK, Items.GOLD_BLOCK, Items.GOLD_BLOCK});
 
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), STEEL_ALLOY, Ingredient.of(IRON_MATTOCK.get(), Items.IRON_HOE), STEEL_MATTOCK.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), STEEL_ALLOY, Ingredient.of(IRON_DOLABRA.get(), Items.IRON_AXE), STEEL_DOLABRA.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), HEPATIZON_ALLOY, Ingredient.of(COPPER_MATTOCK.get(), Items.STONE_HOE), HEPATIZON_MATTOCK.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), HEPATIZON_ALLOY, Ingredient.of(COPPER_DOLABRA.get(), Items.STONE_AXE), HEPATIZON_DOLABRA.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), SHAKUDO_ALLOY, Ingredient.of(COPPER_MATTOCK.get(), Items.STONE_HOE), SHAKUDO_MATTOCK.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), SHAKUDO_ALLOY, Ingredient.of(COPPER_DOLABRA.get(), Items.STONE_AXE), SHAKUDO_DOLABRA.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), ELECTRUM_ALLOY, Ingredient.of(DIAMOND_MATTOCK.get(), Items.DIAMOND_HOE), ELECTRUM_MATTOCK.get());
+        simpleSmithing(output, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), ELECTRUM_ALLOY, Ingredient.of(DIAMOND_DOLABRA.get(), Items.DIAMOND_AXE), ELECTRUM_DOLABRA.get());
+
         simpleSmithing(output, BLUEPRINT.get(), STEEL_ALLOY, Items.SHEARS, STEEL_SHEARS.get());
         simpleSmithing(output, BLUEPRINT.get(), MFItemTags.INGOT_SILVER, WARDING_SWORD, SILVER_SWORD.get());
         simpleSmithing(output, BLUEPRINT.get(), NAZAR, Items.IRON_SWORD, WARDING_SWORD.get());
@@ -114,6 +124,9 @@ public class MFRecipeProvider extends IPRecipeProvider {
         alloyTools(output, BLUEPRINT.get(), Items.STONE, SHAKUDO_ALLOY.get());
 
         armorsRecipe(output, Items.COPPER_INGOT);
+        extraToolsRecipe(output, Items.COPPER_INGOT);
+        extraToolsRecipe(output, Items.IRON_INGOT);
+        extraToolsRecipe(output, Items.DIAMOND);
         alloyArmors(output, MatchaFlavoured.MODID, BLUEPRINT.get(), Items.COPPER_INGOT, HEPATIZON_ALLOY.get());
         alloyArmors(output, MatchaFlavoured.MODID, BLUEPRINT.get(), Items.COPPER_INGOT, SHAKUDO_ALLOY.get());
 
@@ -225,6 +238,11 @@ public class MFRecipeProvider extends IPRecipeProvider {
         discRecipe(output, Items.MUSIC_DISC_WARD, Items.GREEN_DYE);
         discRecipe(output, Items.MUSIC_DISC_WAIT, Items.LIGHT_BLUE_DYE);
 
+        discRecipe(output, MUSIC_DISC_CRETE.get(), Items.HONEYCOMB);
+        discRecipe(output, MUSIC_DISC_MALACHITE.get(), Items.WET_SPONGE);
+        discRecipe(output, MUSIC_DISC_GOLDEN.get(), Items.SUNFLOWER);
+        discRecipe(output, MUSIC_DISC_LABYRINTHINE.get(), Items.MOSSY_STONE_BRICKS);
+
         shapelessRecipe(output, RecipeCategory.MISC, Items.RED_DYE, 1, new Object[]{TOMATOES});
         shapelessRecipe(output, RecipeCategory.MISC, Items.MAGENTA_DYE, 1, new Object[]{HYACINTH});
         shapelessRecipe(output, RecipeCategory.MISC, Items.CYAN_DYE, 1, new Object[]{CYAN_ROSE});
@@ -252,6 +270,7 @@ public class MFRecipeProvider extends IPRecipeProvider {
         shapelessRecipe(output, RecipeCategory.MISC, BLUEPRINT.get(), 4, new Object[]{Items.PAPER, Tags.Items.GEMS_LAPIS});
         shapedRecipe(output, RecipeCategory.MISC, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, 1, new String[]{"nsn", "ses", "nsn"}, Map.of('s', BLUEPRINT, 'e', Ingredients.NETHERITE, 'n', Items.NETHERRACK));
 
+        shapedRecipe(output, RecipeCategory.MISC, GENERIC_UPGRADE_SMITHING_TEMPLATE.get(), 1, new String[]{"isi", "iti", "iii"}, Map.of('i', Tags.Items.INGOTS_IRON, 's', STEEL_ALLOY, 't', ItemTags.STONE_CRAFTING_MATERIALS));
         shapedRecipe(output, RecipeCategory.MISC, BEACON_KINDLING.get(), 1, new String[]{" o ", " c ", " s "}, Map.of('o', OBOL, 's', STRAW_BALE, 'c', Items.CAMPFIRE));
         shapedRecipe(output, RecipeCategory.MISC, SACK.get(), 1, new String[]{" s ", "ses", " s "}, Map.of('s', Tags.Items.LEATHERS, 'e', Tags.Items.CHESTS_WOODEN));
         shapedRecipe(output, RecipeCategory.TOOLS, Items.BUNDLE, 1, new String[]{"c  ", "s  "}, Map.of('s', Items.STRING, 'c', Ingredients.SMALL_LEATHERS));
@@ -260,7 +279,7 @@ public class MFRecipeProvider extends IPRecipeProvider {
         shapedRecipe(output, RecipeCategory.MISC, WARDING_STONE.get(), 1, new String[]{"cnc", "nsn", "cnc"}, Map.of('c', Items.CHISELED_STONE_BRICKS, 'n', NAZAR, 's', STABILIZED_ESTUS));
 
         shapedRecipe(output, RecipeCategory.TOOLS, COPPER_SHEARS.get(), 1, new String[]{" c ", "c  "}, Map.of('c', Tags.Items.INGOTS_COPPER));
-
+        shapedRecipe(output, RecipeCategory.MISC, Items.ANVIL, 1, new String[]{"sss", " i ", "iii"}, Map.of('s', STEEL_ALLOY, 'i', Tags.Items.INGOTS_IRON));
         shapedRecipe(output, RecipeCategory.MISC, Items.TORCH, 4, new String[]{"c ", "s "}, Map.of('s', Items.STICK, 'c', SHORT_DRY_GRASS));
         shapedRecipe(output, RecipeCategory.MISC, STABILIZED_ESTUS.get(), 1, new String[]{"ebe", "eye", "eee"}, Map.of('e', ESTUS_DUST, 'b', BENZENE, 'y', Items.ENDER_PEARL));
 
@@ -276,6 +295,7 @@ public class MFRecipeProvider extends IPRecipeProvider {
         overrideShapeless(output, RecipeCategory.FOOD, Items.COOKIE, 1, new Object[]{MFItemTags.FOOD_CHOCOLATE, Items.SUGAR, MFItemTags.DOUGH});
         overrideShapeless(output, RecipeCategory.FOOD, Items.PUMPKIN_PIE, 1, new Object[]{BAKED_PUMPKIN, BAKED_PUMPKIN, Items.SUGAR, Tags.Items.DRINKS_MILK, MFItemTags.DOUGH});
 
+        overrideShaped(output, RecipeCategory.MISC, Items.SMITHING_TABLE, 1, new String[]{"ss ", "pp ", "pp "}, Map.of('s', STEEL_ALLOY, 'p', ItemTags.PLANKS));
         overrideShaped(output, RecipeCategory.TOOLS, Items.STONE_SWORD, 1, new String[]{" c ", " c ", " s "}, Map.of('c', Tags.Items.INGOTS_COPPER, 's', Items.STICK));
         overrideShaped(output, RecipeCategory.TOOLS, Items.STONE_SHOVEL, 1, new String[]{" c ", " s ", " s "}, Map.of('c', Tags.Items.INGOTS_COPPER, 's', Items.STICK));
         overrideShaped(output, RecipeCategory.TOOLS, Items.STONE_PICKAXE, 1, new String[]{"ccc", " s ", " s "}, Map.of('c', Tags.Items.INGOTS_COPPER, 's', Items.STICK));
@@ -315,6 +335,15 @@ public class MFRecipeProvider extends IPRecipeProvider {
             }
         }, modIds, "shapeless/secret", objects);
     }
+
+    public void extraToolsRecipe(RecipeOutput output, ItemLike ingredient, String... modIds) {
+        String baseName = RegUtil.path(ingredient).replace("_alloy", "").replace("_ingot", "");
+        Item dolabra = CompatUtil.item(modId, baseName + "_dolabra");
+        Item mattock = CompatUtil.item(modId, baseName + "_mattock");
+        if (dolabra != null) shapedRecipe(output, RecipeCategory.COMBAT, dolabra, 1, new String[]{"###", " s#", " s "}, Map.of('#', ingredient, 's', Items.STICK), modIds);
+        if (mattock != null) shapedRecipe(output, RecipeCategory.COMBAT, mattock, 1, new String[]{"## ", " s#", " s "}, Map.of('#', ingredient, 's', Items.STICK), modIds);
+    }
+
 
 
     static class Ingredients {

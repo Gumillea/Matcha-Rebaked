@@ -4,7 +4,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:eggs"
+        "tag": "c:foods/sweet_berry"
       }
     },
     {
@@ -18,7 +18,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:foods/sweet_berry"
+        "tag": "c:eggs"
       }
     },
     {
@@ -96,9 +96,9 @@
     [
       "has_the_recipe",
       "has_sugar",
-      "has_eggs",
-      "has_flour",
       "has_foods/sweet_berry",
+      "has_flour",
+      "has_eggs",
       "has_drinks/milk"
     ]
   ],

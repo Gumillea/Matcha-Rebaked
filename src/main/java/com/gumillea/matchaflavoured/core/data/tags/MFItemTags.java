@@ -22,6 +22,9 @@ public class MFItemTags {
 
     public static final TagKey<Item> EARRING = itemTag("earrings");
 
+    public static final TagKey<Item> DOLABRAS = itemTag("dolabras");
+    public static final TagKey<Item> MATTOCKS = itemTag("mottocks");
+
     public static TagKey<Item> curiosTag(String name) {
         return itemTag("curios", name);
     }

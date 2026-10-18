@@ -1,8 +1,9 @@
 {
   "values": [
-    "matchaflavoured:steel_axe",
-    "matchaflavoured:electrum_axe",
     "matchaflavoured:shakudo_axe",
-    "matchaflavoured:hepatizon_axe"
+    "matchaflavoured:electrum_axe",
+    "matchaflavoured:steel_axe",
+    "matchaflavoured:hepatizon_axe",
+    "#c:dolabras"
   ]
 }

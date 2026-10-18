@@ -27,7 +27,7 @@ public class MFTiers {
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> COPPER_ARMOR = HELPER.reg("copper", new int[] {2, 4, 3, 1, 10}, 8, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Tags.Items.INGOTS_COPPER), 0, 0);
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> STEEL_ARMOR = HELPER.reg("steel", new int[] {2, 7, 5, 2, 10}, 16, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Tags.Items.INGOTS_IRON), 1, 0);
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> HEPATIZON_ARMOR = HELPER.reg("hepatizon", new int[] {3, 8, 6, 3, 10}, 18, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Items.COPPER_BLOCK), 0, 0);
-    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> SHAKUDO_ARMOR = HELPER.reg("shakudo", new int[] {3, 8, 6, 3, 10}, 18, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Items.COPPER_BLOCK), 0, 0);
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> SHAKUDO_ARMOR = HELPER.reg("shakudo", new int[] {2, 6, 4, 1, 10}, 18, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Items.COPPER_BLOCK), 0, 0);
     public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ELECTRUM_ARMOR = HELPER.reg("electrum", new int[] {3, 8, 6, 3, 10}, 18, SoundEvents.ARMOR_EQUIP_IRON, () -> Ingredient.of(Items.COPPER_BLOCK), 0, 0);
 
     public static final Tier COPPER = new SimpleTier(BlockTags.INCORRECT_FOR_STONE_TOOL, 190, 5F, 1F, 13, () -> Ingredient.of(Tags.Items.INGOTS_COPPER));

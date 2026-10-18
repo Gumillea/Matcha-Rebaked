@@ -100,7 +100,7 @@ dependencies {
 
     implementation "curse.maven:farmers-delight-398521:8083481"
 
-    implementation "curse.maven:inland-port-1670557:9107741"
+    implementation files("run/mods/inland_port-1.0.2.jar")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

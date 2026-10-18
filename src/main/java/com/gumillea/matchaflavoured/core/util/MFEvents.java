@@ -197,6 +197,7 @@ public class MFEvents {
                         add(CreativeModeTabs.FUNCTIONAL_BLOCKS, () -> {
                             insertAfter(event, Items.SOUL_TORCH, PHOSPHOR_TORCH.get().asItem());
                             insertAfter(event, Items.CAMPFIRE, BEACON_KINDLING.get().asItem());
+                            insertBefore(event, Items.LIGHTNING_ROD, CLAY_FETISH_LAMENT.get().asItem(), CLAY_FETISH_REJOICE.get().asItem());
                             insertBefore(event, Items.SHULKER_BOX, SACK.get().asItem());
                             insertBefore(event, Items.BEACON, WARDING_STONE.get().asItem());
                         }),
@@ -205,8 +206,9 @@ public class MFEvents {
                             insertBefore(event, Items.FLINT_AND_STEEL, TINDER.get());
                             insertBefore(event, Items.SHEARS, COPPER_SHEARS.get());
                             insertAfter(event, Items.SHEARS, STEEL_SHEARS.get());
-                            insertAfter(event, Items.IRON_HOE, STEEL_SHOVEL.get(), STEEL_PICKAXE.get(), STEEL_AXE.get(), STEEL_HOE.get());
-                            insertAfter(event, Items.DIAMOND_HOE, SHAKUDO_SHOVEL.get(), SHAKUDO_PICKAXE.get(), SHAKUDO_AXE.get(), SHAKUDO_HOE.get(), HEPATIZON_SHOVEL.get(), HEPATIZON_PICKAXE.get(), HEPATIZON_AXE.get(), HEPATIZON_HOE.get(), ELECTRUM_SHOVEL.get(), ELECTRUM_PICKAXE.get(), ELECTRUM_AXE.get(), ELECTRUM_HOE.get());
+                            insertAfter(event, Items.STONE_HOE, COPPER_DOLABRA.get(), COPPER_MATTOCK.get());
+                            insertAfter(event, Items.IRON_HOE, IRON_DOLABRA.get(), IRON_MATTOCK.get(), STEEL_SHOVEL.get(), STEEL_PICKAXE.get(), STEEL_AXE.get(), STEEL_HOE.get(), STEEL_DOLABRA.get(), STEEL_MATTOCK.get());
+                            insertAfter(event, Items.DIAMOND_HOE, DIAMOND_DOLABRA.get(), DIAMOND_MATTOCK.get(), SHAKUDO_SHOVEL.get(), SHAKUDO_PICKAXE.get(), SHAKUDO_AXE.get(), SHAKUDO_HOE.get(), SHAKUDO_DOLABRA.get(), SHAKUDO_MATTOCK.get(), HEPATIZON_SHOVEL.get(), HEPATIZON_PICKAXE.get(), HEPATIZON_AXE.get(), HEPATIZON_HOE.get(), HEPATIZON_DOLABRA.get(), HEPATIZON_MATTOCK.get(), ELECTRUM_SHOVEL.get(), ELECTRUM_PICKAXE.get(), ELECTRUM_AXE.get(), ELECTRUM_HOE.get(), ELECTRUM_DOLABRA.get(), ELECTRUM_MATTOCK.get());
                             insertAfter(event, Items.LEAD, AMNESTIC.get(), CRYSTAL_HEART.get(), Items.BUNDLE);
                             insertAfter(event, Items.FISHING_ROD, TADPOLE.get(), FROG.get(), AXOLOTL.get());
                             insertAfter(event, Items.WRITABLE_BOOK, APPLICATION.get(), CHORUS_MOCHI_RECIPE.get(), SWEET_BERRY_TOAST_RECIPE.get(), GNOCCHI_RECIPE.get(), WARPED_FUNGUS_STROGANOFF_RECIPE.get());
@@ -215,8 +217,8 @@ public class MFEvents {
                         add(CreativeModeTabs.COMBAT, () -> {
                             insertAfter(event, Items.IRON_SWORD, STEEL_SWORD.get());
                             insertAfter(event, Items.DIAMOND_SWORD, SHAKUDO_SWORD.get(), HEPATIZON_SWORD.get(), ELECTRUM_SWORD.get());
-                            insertAfter(event, Items.IRON_AXE, STEEL_AXE.get());
-                            insertAfter(event, Items.DIAMOND_AXE, SHAKUDO_AXE.get(), HEPATIZON_AXE.get(), ELECTRUM_AXE.get());
+                            insertAfter(event, Items.IRON_AXE, IRON_DOLABRA.get(), STEEL_AXE.get(), STEEL_DOLABRA.get());
+                            insertAfter(event, Items.DIAMOND_AXE, DIAMOND_DOLABRA.get(), SHAKUDO_AXE.get(), SHAKUDO_DOLABRA.get(), HEPATIZON_AXE.get(), HEPATIZON_DOLABRA.get(), ELECTRUM_AXE.get(), ELECTRUM_DOLABRA.get());
                             insertBefore(event, Items.SHIELD, NAZAR.get(), WOODEN_CROSS.get());
                             insertAfter(event, Items.SHIELD, WARDING_SHIELD.get());
                             insertBefore(event, Items.TURTLE_HELMET, HEPATIZON_LAUREL.get(), RUBY_CIRCLET.get(), NAZAR_CIRCLET.get());
@@ -264,6 +266,7 @@ public class MFEvents {
                             insertBefore(event, Items.WHEAT, STRAW.get(), TALL_DRY_GRASS.get(), SHORT_DRY_GRASS.get());
                             insertBefore(event, Items.SUGAR, MOLASSES.get());
                             insertAfter(event, Items.PAPER, BLUEPRINT.get());
+                            insertBefore(event, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, GENERIC_UPGRADE_SMITHING_TEMPLATE.get());
                             insertBefore(event, Items.DRAGON_BREATH, BENZENE.get());
                             insertAfter(event, Items.GUNPOWDER, ESTUS_DUST.get(), STABILIZED_ESTUS.get());
                             insertAfter(event, Items.HEART_OF_THE_SEA, DIVINE_FRAGMENT.get(), DIVINE_FAVOR.get(), NAZAR.get());

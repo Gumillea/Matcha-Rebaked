@@ -6,11 +6,11 @@
     },
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:copper_boots"
+      "item": "matchaflavoured:hepatizon_alloy"
     },
     {
       "type": "inland_port:not_disabled",
-      "item": "matchaflavoured:hepatizon_alloy"
+      "item": "matchaflavoured:copper_boots"
     },
     {
       "type": "inland_port:not_disabled",
@@ -19,10 +19,10 @@
   ],
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "matchaflavoured:hepatizon_alloy"
+    "item": "matchaflavoured:copper_boots"
   },
   "base": {
-    "item": "matchaflavoured:copper_boots"
+    "item": "matchaflavoured:hepatizon_alloy"
   },
   "result": {
     "count": 1,

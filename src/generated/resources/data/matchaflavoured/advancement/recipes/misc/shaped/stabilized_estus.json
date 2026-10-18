@@ -55,8 +55,8 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ender_pearl",
       "has_benzene",
+      "has_ender_pearl",
       "has_estus_dust"
     ]
   ],

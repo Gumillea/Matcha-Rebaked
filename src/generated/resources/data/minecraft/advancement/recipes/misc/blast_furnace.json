@@ -47,9 +47,9 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_smooth_stone",
+      "has_polished_deepslate",
       "has_campfire",
-      "has_polished_deepslate"
+      "has_smooth_stone"
     ]
   ],
   "rewards": {

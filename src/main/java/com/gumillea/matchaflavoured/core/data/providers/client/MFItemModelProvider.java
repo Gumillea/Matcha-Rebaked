@@ -11,6 +11,8 @@ import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
+import static com.gumillea.matchaflavoured.core.reg.MFBlocks.*;
+
 public class MFItemModelProvider extends IPItemModelProvider {
 
     public MFItemModelProvider(PackOutput output, ExistingFileHelper helper) {
@@ -19,7 +21,7 @@ public class MFItemModelProvider extends IPItemModelProvider {
 
     @Override
     public void overrideModels() {
-        addItem(MFBlocks.BEACON_KINDLING.get().asItem());
+        addItem(BEACON_KINDLING.get().asItem(), CLAY_FETISH_REJOICE.get().asItem(), CLAY_FETISH_LAMENT.get().asItem());
         addSecretItems();
     }
 

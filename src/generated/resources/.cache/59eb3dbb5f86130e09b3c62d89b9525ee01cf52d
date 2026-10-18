@@ -1,6 +1,8 @@
-// 1.21.1	2026-10-06T22:18:42.146696	Loot Tables
+// 1.21.1	2026-10-17T21:07:01.9284559	Loot Tables
 6d7791deeb040b13288523c7b9d54a26f2dde3b8 data/matchaflavoured/loot_table/blocks/beacon_kindling.json
 177d39f9b47b64ff918f04538402317ceaadc886 data/matchaflavoured/loot_table/blocks/chiseled_sulfur.json
+792a555fa99c6f20aaf3e5a624f95c44f9d41032 data/matchaflavoured/loot_table/blocks/clay_fetish_lament.json
+2efe9f2738ee632780614ba5a59c5ea4a182474e data/matchaflavoured/loot_table/blocks/clay_fetish_rejoice.json
 2492bf6c174749edbcc1c878010b3f48a7362fb7 data/matchaflavoured/loot_table/blocks/cyan_rose.json
 bb1aa434082418728beadc3b6d3aec4f4accb03a data/matchaflavoured/loot_table/blocks/deepslate_quartz_ore.json
 162fca606435e319194426d76773400608668d8d data/matchaflavoured/loot_table/blocks/deepslate_silver_ore.json

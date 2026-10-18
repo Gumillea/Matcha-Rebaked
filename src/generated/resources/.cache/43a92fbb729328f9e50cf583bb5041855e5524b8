@@ -1,15 +1,17 @@
-// 1.21.1	2026-10-09T21:13:05.8315364	Tags for minecraft:block mod id matchaflavoured
-937ba48a8131524a27d95bb584fb37b2da4f87ab data/c/tags/block/ores.json
-b4d0c468ea3e6a5afd36d6c596b8f49c19e9e943 data/c/tags/block/ores_in_ground/deepslate.json
-4355da47dee76caef137ed01d17528e87cfc1906 data/c/tags/block/ores_in_ground/stone.json
+// 1.21.1	2026-10-18T01:33:18.5882061	Tags for minecraft:block mod id matchaflavoured
+acb28b09ab5522e73a71dabf73d7c76b8931f54b data/c/tags/block/ores.json
+e5b853e04d46f39c987b6fc1f4c3588b7e6e68e4 data/c/tags/block/ores_in_ground/deepslate.json
+44504367a06118452353c19687e5a505755ee9d8 data/c/tags/block/ores_in_ground/stone.json
 adc23842b4a3ede580261e9a68e2d2f29eda3f43 data/c/tags/block/stones.json
+5d10cc5d08f26a88e9e190ea06698868d0c3f8d0 data/matchaflavoured/tags/block/mineable/dolabra.json
+a2ddebe8b5009ada2c0c2a898858a6ba1662dd1a data/matchaflavoured/tags/block/mineable/mattock.json
 30f03c6afc7b70bc498e5070feaffa6e509023f8 data/minecraft/tags/block/crops.json
 3eb44923a71f633d1dfa123131644d5a2572d05d data/minecraft/tags/block/incorrect_for_iron_tool.json
 8354851657b5a4483b70d3275d60ac021f81c0ce data/minecraft/tags/block/incorrect_for_wooden_tool.json
 1a1e5767fb78d3c9b9b624635a6f64a5c5d9d7b7 data/minecraft/tags/block/mineable/axe.json
 1a1e5767fb78d3c9b9b624635a6f64a5c5d9d7b7 data/minecraft/tags/block/mineable/hoe.json
-ee864b9f87ad834f7de85d4cc150dda98da69dfc data/minecraft/tags/block/mineable/pickaxe.json
+86f73a5389c40e6e543a8f545031563d846b76f1 data/minecraft/tags/block/mineable/pickaxe.json
 38ef5a56d1d5d96ce0b010a0aeac2219e1fef1e7 data/minecraft/tags/block/slabs.json
 1ff2573e923e0c560fb01b514be38c31458f1e1e data/minecraft/tags/block/small_flowers.json
-e01805f4480a54220d608262ea2c05baf0fe5b74 data/minecraft/tags/block/stairs.json
-f3232dc7046cfc512672fd5ca7fff0f29025e5d9 data/minecraft/tags/block/walls.json
+590dd1be4ffc383a4665ce83f094336dcee07c27 data/minecraft/tags/block/stairs.json
+dab2b932941ce21fee8f45cc9b1c82728be1473e data/minecraft/tags/block/walls.json

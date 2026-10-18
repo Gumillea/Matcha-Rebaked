@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "matchaflavoured:block/clay_fetish_lament"
+    },
+    "facing=south": {
+      "model": "matchaflavoured:block/clay_fetish_lament",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "matchaflavoured:block/clay_fetish_lament",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "matchaflavoured:block/clay_fetish_lament",
+      "y": 270
+    }
+  }
+}

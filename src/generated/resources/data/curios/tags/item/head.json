@@ -1,14 +1,14 @@
 {
   "values": [
-    "matchaflavoured:ruby_circlet",
     "matchaflavoured:diamond_earrings",
-    "matchaflavoured:amethyst_earrings",
-    "matchaflavoured:amber_earrings",
-    "matchaflavoured:lapis_earrings",
-    "matchaflavoured:opal_earrings",
     "matchaflavoured:emerald_earrings",
-    "matchaflavoured:hepatizon_laurel",
+    "matchaflavoured:lapis_earrings",
+    "matchaflavoured:ruby_circlet",
+    "matchaflavoured:amber_earrings",
     "matchaflavoured:topaz_earrings",
-    "matchaflavoured:nazar_circlet"
+    "matchaflavoured:amethyst_earrings",
+    "matchaflavoured:opal_earrings",
+    "matchaflavoured:nazar_circlet",
+    "matchaflavoured:hepatizon_laurel"
   ]
 }

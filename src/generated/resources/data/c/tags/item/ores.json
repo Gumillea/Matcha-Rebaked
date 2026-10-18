@@ -1,18 +1,12 @@
 {
   "values": [
-    "matchaflavoured:deepslate_silver_ore",
-    "matchaflavoured:silver_ore",
-    "matchaflavoured:deepslate_silver_ore",
-    "matchaflavoured:sulfur_ore",
     "matchaflavoured:quartz_ore",
     "matchaflavoured:deepslate_quartz_ore",
-    "matchaflavoured:deepslate_quartz_ore",
-    "matchaflavoured:deepslate_silver_ore",
+    "matchaflavoured:sulfur_ore",
     "matchaflavoured:silver_ore",
     "matchaflavoured:deepslate_silver_ore",
-    "matchaflavoured:sulfur_ore",
-    "matchaflavoured:quartz_ore",
     "matchaflavoured:deepslate_quartz_ore",
+    "matchaflavoured:deepslate_silver_ore",
     "matchaflavoured:sulfur",
     "matchaflavoured:chiseled_sulfur",
     "matchaflavoured:sulfur_stairs",
@@ -26,7 +20,13 @@
     "matchaflavoured:polished_sulfur_stairs",
     "matchaflavoured:polished_sulfur_slab",
     "matchaflavoured:polished_sulfur_wall",
+    "matchaflavoured:quartz_ore",
     "matchaflavoured:deepslate_quartz_ore",
+    "matchaflavoured:sulfur_ore",
+    "matchaflavoured:silver_ore",
+    "matchaflavoured:deepslate_silver_ore",
+    "matchaflavoured:deepslate_quartz_ore",
+    "matchaflavoured:deepslate_silver_ore",
     "matchaflavoured:obol_block"
   ]
 }
